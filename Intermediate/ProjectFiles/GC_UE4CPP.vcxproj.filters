@@ -1,0 +1,66 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <None Include="..\..\GC_UE4CPP.uproject" />
+    <Filter Include="Source">
+      <UniqueIdentifier>{B8A3C59C-C820-4E4E-B046-E85E803862F7}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\GC_UE4CPP.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\Source\GC_UE4CPPEditor.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\.gitattributes" />
+    <None Include="..\..\.gitignore" />
+    <None Include="..\..\README.md" />
+    <Filter Include="Config">
+      <UniqueIdentifier>{2EDFFF47-91F4-49E1-9A62-2C712AB6A7D9}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\DefaultEditor.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEngine.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultGame.ini">
+      <Filter>Config</Filter>
+    </None>
+    <Filter Include="Source\GC_UE4CPP">
+      <UniqueIdentifier>{8B2D445F-0D70-456B-A9EB-FC36B5E1D750}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\GC_UE4CPP\GC_UE4CPP.Build.cs">
+      <Filter>Source\GC_UE4CPP</Filter>
+    </None>
+    <ClCompile Include="..\..\Source\GC_UE4CPP\GC_UE4CPP.cpp">
+      <Filter>Source\GC_UE4CPP</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\GC_UE4CPP\GC_UE4CPP.h">
+      <Filter>Source\GC_UE4CPP</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\GC_UE4CPP\GC_UE4CPPGameModeBase.cpp">
+      <Filter>Source\GC_UE4CPP</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\GC_UE4CPP\GC_UE4CPPGameModeBase.h">
+      <Filter>Source\GC_UE4CPP</Filter>
+    </ClInclude>
+    <Filter Include="Source\GC_UE4CPP\Private">
+      <UniqueIdentifier>{7495C9F1-386F-4489-9816-D2D519259096}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\GC_UE4CPP\Private\Hero.cpp">
+      <Filter>Source\GC_UE4CPP\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\GC_UE4CPP\Private\MainGameMode.cpp">
+      <Filter>Source\GC_UE4CPP\Private</Filter>
+    </ClCompile>
+    <Filter Include="Source\GC_UE4CPP\Public">
+      <UniqueIdentifier>{1702D7F3-24DA-4323-B1BE-C04CAE34742A}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Source\GC_UE4CPP\Public\Hero.h">
+      <Filter>Source\GC_UE4CPP\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\GC_UE4CPP\Public\MainGameMode.h">
+      <Filter>Source\GC_UE4CPP\Public</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
