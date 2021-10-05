@@ -13,10 +13,10 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 #endif
 #define GC_UE4CPP_GC_UE4CPPGameModeBase_generated_h
 
-#define GC_UE4CPP_Source_GC_UE4CPP_GC_UE4CPPGameModeBase_h_15_SPARSE_DATA
-#define GC_UE4CPP_Source_GC_UE4CPP_GC_UE4CPPGameModeBase_h_15_RPC_WRAPPERS
-#define GC_UE4CPP_Source_GC_UE4CPP_GC_UE4CPPGameModeBase_h_15_RPC_WRAPPERS_NO_PURE_DECLS
-#define GC_UE4CPP_Source_GC_UE4CPP_GC_UE4CPPGameModeBase_h_15_INCLASS_NO_PURE_DECLS \
+#define UE4InfiltrationGame_Source_GC_UE4CPP_GC_UE4CPPGameModeBase_h_15_SPARSE_DATA
+#define UE4InfiltrationGame_Source_GC_UE4CPP_GC_UE4CPPGameModeBase_h_15_RPC_WRAPPERS
+#define UE4InfiltrationGame_Source_GC_UE4CPP_GC_UE4CPPGameModeBase_h_15_RPC_WRAPPERS_NO_PURE_DECLS
+#define UE4InfiltrationGame_Source_GC_UE4CPP_GC_UE4CPPGameModeBase_h_15_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesAGC_UE4CPPGameModeBase(); \
 	friend struct Z_Construct_UClass_AGC_UE4CPPGameModeBase_Statics; \
@@ -25,7 +25,7 @@ public: \
 	DECLARE_SERIALIZER(AGC_UE4CPPGameModeBase)
 
 
-#define GC_UE4CPP_Source_GC_UE4CPP_GC_UE4CPPGameModeBase_h_15_INCLASS \
+#define UE4InfiltrationGame_Source_GC_UE4CPP_GC_UE4CPPGameModeBase_h_15_INCLASS \
 private: \
 	static void StaticRegisterNativesAGC_UE4CPPGameModeBase(); \
 	friend struct Z_Construct_UClass_AGC_UE4CPPGameModeBase_Statics; \
@@ -34,7 +34,7 @@ public: \
 	DECLARE_SERIALIZER(AGC_UE4CPPGameModeBase)
 
 
-#define GC_UE4CPP_Source_GC_UE4CPP_GC_UE4CPPGameModeBase_h_15_STANDARD_CONSTRUCTORS \
+#define UE4InfiltrationGame_Source_GC_UE4CPP_GC_UE4CPPGameModeBase_h_15_STANDARD_CONSTRUCTORS \
 	/** Standard constructor, called after all reflected properties have been initialized */ \
 	NO_API AGC_UE4CPPGameModeBase(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
 	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(AGC_UE4CPPGameModeBase) \
@@ -47,7 +47,7 @@ private: \
 public:
 
 
-#define GC_UE4CPP_Source_GC_UE4CPP_GC_UE4CPPGameModeBase_h_15_ENHANCED_CONSTRUCTORS \
+#define UE4InfiltrationGame_Source_GC_UE4CPP_GC_UE4CPPGameModeBase_h_15_ENHANCED_CONSTRUCTORS \
 	/** Standard constructor, called after all reflected properties have been initialized */ \
 	NO_API AGC_UE4CPPGameModeBase(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()) : Super(ObjectInitializer) { }; \
 private: \
@@ -60,28 +60,28 @@ public: \
 	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(AGC_UE4CPPGameModeBase)
 
 
-#define GC_UE4CPP_Source_GC_UE4CPP_GC_UE4CPPGameModeBase_h_15_PRIVATE_PROPERTY_OFFSET
-#define GC_UE4CPP_Source_GC_UE4CPP_GC_UE4CPPGameModeBase_h_12_PROLOG
-#define GC_UE4CPP_Source_GC_UE4CPP_GC_UE4CPPGameModeBase_h_15_GENERATED_BODY_LEGACY \
+#define UE4InfiltrationGame_Source_GC_UE4CPP_GC_UE4CPPGameModeBase_h_15_PRIVATE_PROPERTY_OFFSET
+#define UE4InfiltrationGame_Source_GC_UE4CPP_GC_UE4CPPGameModeBase_h_12_PROLOG
+#define UE4InfiltrationGame_Source_GC_UE4CPP_GC_UE4CPPGameModeBase_h_15_GENERATED_BODY_LEGACY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	GC_UE4CPP_Source_GC_UE4CPP_GC_UE4CPPGameModeBase_h_15_PRIVATE_PROPERTY_OFFSET \
-	GC_UE4CPP_Source_GC_UE4CPP_GC_UE4CPPGameModeBase_h_15_SPARSE_DATA \
-	GC_UE4CPP_Source_GC_UE4CPP_GC_UE4CPPGameModeBase_h_15_RPC_WRAPPERS \
-	GC_UE4CPP_Source_GC_UE4CPP_GC_UE4CPPGameModeBase_h_15_INCLASS \
-	GC_UE4CPP_Source_GC_UE4CPP_GC_UE4CPPGameModeBase_h_15_STANDARD_CONSTRUCTORS \
+	UE4InfiltrationGame_Source_GC_UE4CPP_GC_UE4CPPGameModeBase_h_15_PRIVATE_PROPERTY_OFFSET \
+	UE4InfiltrationGame_Source_GC_UE4CPP_GC_UE4CPPGameModeBase_h_15_SPARSE_DATA \
+	UE4InfiltrationGame_Source_GC_UE4CPP_GC_UE4CPPGameModeBase_h_15_RPC_WRAPPERS \
+	UE4InfiltrationGame_Source_GC_UE4CPP_GC_UE4CPPGameModeBase_h_15_INCLASS \
+	UE4InfiltrationGame_Source_GC_UE4CPP_GC_UE4CPPGameModeBase_h_15_STANDARD_CONSTRUCTORS \
 public: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
 
-#define GC_UE4CPP_Source_GC_UE4CPP_GC_UE4CPPGameModeBase_h_15_GENERATED_BODY \
+#define UE4InfiltrationGame_Source_GC_UE4CPP_GC_UE4CPPGameModeBase_h_15_GENERATED_BODY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	GC_UE4CPP_Source_GC_UE4CPP_GC_UE4CPPGameModeBase_h_15_PRIVATE_PROPERTY_OFFSET \
-	GC_UE4CPP_Source_GC_UE4CPP_GC_UE4CPPGameModeBase_h_15_SPARSE_DATA \
-	GC_UE4CPP_Source_GC_UE4CPP_GC_UE4CPPGameModeBase_h_15_RPC_WRAPPERS_NO_PURE_DECLS \
-	GC_UE4CPP_Source_GC_UE4CPP_GC_UE4CPPGameModeBase_h_15_INCLASS_NO_PURE_DECLS \
-	GC_UE4CPP_Source_GC_UE4CPP_GC_UE4CPPGameModeBase_h_15_ENHANCED_CONSTRUCTORS \
+	UE4InfiltrationGame_Source_GC_UE4CPP_GC_UE4CPPGameModeBase_h_15_PRIVATE_PROPERTY_OFFSET \
+	UE4InfiltrationGame_Source_GC_UE4CPP_GC_UE4CPPGameModeBase_h_15_SPARSE_DATA \
+	UE4InfiltrationGame_Source_GC_UE4CPP_GC_UE4CPPGameModeBase_h_15_RPC_WRAPPERS_NO_PURE_DECLS \
+	UE4InfiltrationGame_Source_GC_UE4CPP_GC_UE4CPPGameModeBase_h_15_INCLASS_NO_PURE_DECLS \
+	UE4InfiltrationGame_Source_GC_UE4CPP_GC_UE4CPPGameModeBase_h_15_ENHANCED_CONSTRUCTORS \
 private: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
@@ -89,7 +89,7 @@ PRAGMA_ENABLE_DEPRECATION_WARNINGS
 template<> GC_UE4CPP_API UClass* StaticClass<class AGC_UE4CPPGameModeBase>();
 
 #undef CURRENT_FILE_ID
-#define CURRENT_FILE_ID GC_UE4CPP_Source_GC_UE4CPP_GC_UE4CPPGameModeBase_h
+#define CURRENT_FILE_ID UE4InfiltrationGame_Source_GC_UE4CPP_GC_UE4CPPGameModeBase_h
 
 
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
