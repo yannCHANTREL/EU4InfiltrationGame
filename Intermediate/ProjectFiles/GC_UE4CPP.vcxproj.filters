@@ -3,7 +3,7 @@
   <ItemGroup>
     <None Include="..\..\GC_UE4CPP.uproject" />
     <Filter Include="Source">
-      <UniqueIdentifier>{5190557F-B039-4A1C-85E9-130553D854F6}</UniqueIdentifier>
+      <UniqueIdentifier>{A6540B57-B417-4E47-BF0B-A3EFF3B4A2A5}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\GC_UE4CPP.Target.cs">
       <Filter>Source</Filter>
@@ -15,7 +15,7 @@
     <None Include="..\..\.gitignore" />
     <None Include="..\..\README.md" />
     <Filter Include="Config">
-      <UniqueIdentifier>{1B116A39-7B12-4731-B469-C7AC680A91DD}</UniqueIdentifier>
+      <UniqueIdentifier>{519802DC-E78D-4F02-95F8-EE1B65CDB2AB}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Config\DefaultEditor.ini">
       <Filter>Config</Filter>
@@ -30,7 +30,7 @@
       <Filter>Config</Filter>
     </None>
     <Filter Include="Source\GC_UE4CPP">
-      <UniqueIdentifier>{7624D2AC-374B-446A-A1EA-D17A7E6F4333}</UniqueIdentifier>
+      <UniqueIdentifier>{6E2D23FB-138E-4F49-B682-96EFD09267AB}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\GC_UE4CPP\GC_UE4CPP.Build.cs">
       <Filter>Source\GC_UE4CPP</Filter>
@@ -48,7 +48,7 @@
       <Filter>Source\GC_UE4CPP</Filter>
     </ClInclude>
     <Filter Include="Source\GC_UE4CPP\Private">
-      <UniqueIdentifier>{0E0E8DFB-BC45-4EE0-8115-65CAD4DEE8DE}</UniqueIdentifier>
+      <UniqueIdentifier>{10BA8DB8-56F4-46A9-BC99-24D6BF7E130F}</UniqueIdentifier>
     </Filter>
     <ClCompile Include="..\..\Source\GC_UE4CPP\Private\CharacterAnimInstance.cpp">
       <Filter>Source\GC_UE4CPP\Private</Filter>
@@ -59,8 +59,11 @@
     <ClCompile Include="..\..\Source\GC_UE4CPP\Private\MainGameMode.cpp">
       <Filter>Source\GC_UE4CPP\Private</Filter>
     </ClCompile>
+    <ClCompile Include="..\..\Source\GC_UE4CPP\Private\MainGameState.cpp">
+      <Filter>Source\GC_UE4CPP\Private</Filter>
+    </ClCompile>
     <Filter Include="Source\GC_UE4CPP\Public">
-      <UniqueIdentifier>{85F8516B-7F15-421C-8C4C-F4A1B7373426}</UniqueIdentifier>
+      <UniqueIdentifier>{E23BE813-1BB7-4138-91C5-902D4362CBEB}</UniqueIdentifier>
     </Filter>
     <ClInclude Include="..\..\Source\GC_UE4CPP\Public\CharacterAnimInstance.h">
       <Filter>Source\GC_UE4CPP\Public</Filter>
@@ -69,6 +72,9 @@
       <Filter>Source\GC_UE4CPP\Public</Filter>
     </ClInclude>
     <ClInclude Include="..\..\Source\GC_UE4CPP\Public\MainGameMode.h">
+      <Filter>Source\GC_UE4CPP\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\GC_UE4CPP\Public\MainGameState.h">
       <Filter>Source\GC_UE4CPP\Public</Filter>
     </ClInclude>
   </ItemGroup>

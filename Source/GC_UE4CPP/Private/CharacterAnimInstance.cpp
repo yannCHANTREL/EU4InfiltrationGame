@@ -21,6 +21,6 @@ void UCharacterAnimInstance::NativeUpdateAnimation(float DeltaSeconds)
 		FVector Velocity = Hero->GetVelocity();
 		Velocity.Z = 0;
 		Speed = Velocity.Size();
-		
+		// bVictory = GameState->bVictory // bDefeat = !GameState->bVictory
 	}
 }

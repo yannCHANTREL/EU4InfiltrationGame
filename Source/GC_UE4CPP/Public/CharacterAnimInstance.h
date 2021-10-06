@@ -25,5 +25,9 @@ private:
 	AHero* Hero;
 	UPROPERTY(VisibleAnywhere,BlueprintReadOnly ,Category = Movement, meta = (AllowPrivateAccess = "true"))
 	float Speed;
+	UPROPERTY(VisibleAnywhere,BlueprintReadOnly ,Category = Movement, meta = (AllowPrivateAccess = "true"))
+	bool bVictory;
+	UPROPERTY(VisibleAnywhere,BlueprintReadOnly ,Category = Movement, meta = (AllowPrivateAccess = "true"))
+	bool bDefeat;
 	
 };

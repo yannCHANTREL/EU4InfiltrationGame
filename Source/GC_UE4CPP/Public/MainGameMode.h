@@ -9,9 +9,12 @@
 /**
  * 
  */
+
 UCLASS()
 class GC_UE4CPP_API AMainGameMode : public AGameModeBase
 {
 	GENERATED_BODY()
+
+public:
 	
 };
