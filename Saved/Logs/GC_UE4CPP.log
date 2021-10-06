@@ -5224,3 +5224,448 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2021.10.06-14.26.44:111][408]AssetCheck: New page: Asset Save: multiple assets
 [2021.10.06-14.26.44:111][408]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/Maps/MainMap_BuiltData.MainMap_BuiltData
 [2021.10.06-14.26.44:111][408]LogContentValidation: Display: Validating World /Game/Maps/MainMap.MainMap
+[2021.10.06-14.39.50:449][631]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2021.10.06-14.39.50:467][632]LogSlate: Took 0.003157 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansFallback.ttf' (3848K)
+[2021.10.06-14.40.54:164][ 75]Running C:/Program Files/Epic Games/UE_4.27/Engine/Binaries/DotNET/UnrealBuildTool.exe  -projectfiles -project="C:/Users/aremond/Documents/GitHub/UE4InfiltrationGame/GC_UE4CPP.uproject" -game -rocket -progress
+[2021.10.06-14.40.54:367][ 75]Discovering modules, targets and source code for project...
+[2021.10.06-14.40.55:576][ 75]Binding IntelliSense data...
+[2021.10.06-14.40.57:091][ 75]Binding IntelliSense data... 100%
+[2021.10.06-14.40.57:091][ 75]Writing project files...
+[2021.10.06-14.40.59:508][ 75]Writing project files... 100%
+[2021.10.06-14.40.59:619][ 75]Candidate modules for hot reload:
+[2021.10.06-14.40.59:620][ 75]  GC_UE4CPP
+[2021.10.06-14.40.59:620][ 75]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.27/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=GC_UE4CPP,9456 GC_UE4CPPEditor Win64 Development -Project="C:/Users/aremond/Documents/GitHub/UE4InfiltrationGame/GC_UE4CPP.uproject" "C:/Users/aremond/Documents/GitHub/UE4InfiltrationGame/GC_UE4CPP.uproject"  -IgnoreJunk]
+[2021.10.06-14.41.05:042][ 75]CompilerResultsLog: New page: Compilation - 6 oct. 2021 à 18:41:05
+[2021.10.06-14.41.05:042][ 75]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (C:\Users\aremond\Documents\GitHub\UE4InfiltrationGame).
+[2021.10.06-14.41.05:042][ 75]CompilerResultsLog: Creating makefile for GC_UE4CPPEditor (no existing makefile)
+[2021.10.06-14.41.05:042][ 75]CompilerResultsLog: Parsing headers for GC_UE4CPPEditor
+[2021.10.06-14.41.05:042][ 75]CompilerResultsLog:   Running UnrealHeaderTool "C:\Users\aremond\Documents\GitHub\UE4InfiltrationGame\GC_UE4CPP.uproject" "C:\Users\aremond\Documents\GitHub\UE4InfiltrationGame\Intermediate\Build\Win64\GC_UE4CPPEditor\Development\GC_UE4CPPEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -abslog="C:\Users\aremond\AppData\Local\UnrealBuildTool\Log_UHT.txt" -installed
+[2021.10.06-14.41.05:042][ 75]CompilerResultsLog: LogInit: Display: Loading text-based GConfig....
+[2021.10.06-14.41.05:042][ 75]CompilerResultsLog: Reflection code generated for GC_UE4CPPEditor in 2,7714021 seconds
+[2021.10.06-14.41.05:042][ 75]CompilerResultsLog: Building GC_UE4CPPEditor...
+[2021.10.06-14.41.05:042][ 75]CompilerResultsLog: Using Visual Studio 2019 14.29.30133 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133) and Windows 10.0.19041.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2021.10.06-14.41.05:042][ 75]CompilerResultsLog: Building 6 actions with 12 processes...
+[2021.10.06-14.41.05:042][ 75]CompilerResultsLog:   [1/6] CharacterAnimInstance.cpp
+[2021.10.06-14.41.05:042][ 75]CompilerResultsLog:   [2/6] GC_UE4CPP.init.gen.cpp
+[2021.10.06-14.41.05:042][ 75]CompilerResultsLog:   [3/6] CharacterAnimInstance.gen.cpp
+[2021.10.06-14.41.05:042][ 75]CompilerResultsLog:   [4/6] UE4Editor-GC_UE4CPP-9456.lib
+[2021.10.06-14.41.05:042][ 75]CompilerResultsLog:      Cr?ation de la biblioth?que C:\Users\aremond\Documents\GitHub\UE4InfiltrationGame\Intermediate\Build\Win64\UE4Editor\Development\GC_UE4CPP\UE4Editor-GC_UE4CPP-9456.lib et de l'objet C:\Users\aremond\Documents\GitHub\UE4InfiltrationGame\Intermediate\Build\Win64\UE4Editor\Development\GC_UE4CPP\UE4Editor-GC_UE4CPP-9456.exp
+[2021.10.06-14.41.05:042][ 75]CompilerResultsLog:   [5/6] UE4Editor-GC_UE4CPP-9456.dll
+[2021.10.06-14.41.05:042][ 75]CompilerResultsLog:      Cr?ation de la biblioth?que C:\Users\aremond\Documents\GitHub\UE4InfiltrationGame\Intermediate\Build\Win64\UE4Editor\Development\GC_UE4CPP\UE4Editor-GC_UE4CPP-9456.suppressed.lib et de l'objet C:\Users\aremond\Documents\GitHub\UE4InfiltrationGame\Intermediate\Build\Win64\UE4Editor\Development\GC_UE4CPP\UE4Editor-GC_UE4CPP-9456.suppressed.exp
+[2021.10.06-14.41.05:042][ 75]CompilerResultsLog:   [6/6] GC_UE4CPPEditor.target
+[2021.10.06-14.41.05:042][ 75]CompilerResultsLog: Total time in Parallel executor: 1,12 seconds
+[2021.10.06-14.41.05:042][ 75]CompilerResultsLog: Total execution time: 5,36 seconds
+[2021.10.06-14.41.05:042][ 75]LogMainFrame: MainFrame: Module compiling took 5.431 seconds
+[2021.10.06-14.41.05:047][ 75]LogClass: Could not find existing class CharacterAnimInstance in package /Script/GC_UE4CPP for HotReload, assuming new class
+[2021.10.06-14.41.05:064][ 75]LogNativeClassHierarchy: Verbose: Native class hierarchy updated for 'GC_UE4CPP' in 0.0002 seconds. Added 4 classes and 3 folders.
+[2021.10.06-14.41.05:069][ 75]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2021.10.06-14.41.05:153][ 75]LogNativeClassHierarchy: Verbose: Native class hierarchy populated in 0.0073 seconds. Added 3826 classes and 931 folders.
+[2021.10.06-14.41.05:153][ 75]Display: HotReload took  5.5s.
+[2021.10.06-14.41.05:154][ 75]Warning: HotReload operation took  5.5s.
+[2021.10.06-14.41.05:190][ 75]LogSlate: Window 'Add C++ Class' being destroyed
+[2021.10.06-14.41.05:490][ 76]LogHotReload: New module detected: UE4Editor-GC_UE4CPP-9456.dll
+[2021.10.06-14.41.05:551][ 77]LogHotReload: Starting Hot-Reload from IDE
+[2021.10.06-14.41.05:764][ 77]LogNativeClassHierarchy: Verbose: Native class hierarchy updated for 'GC_UE4CPP' in 0.0003 seconds. Added 4 classes and 3 folders.
+[2021.10.06-14.41.05:770][ 77]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2021.10.06-14.41.05:781][ 77]LogNativeClassHierarchy: Verbose: Native class hierarchy populated in 0.0082 seconds. Added 3826 classes and 931 folders.
+[2021.10.06-14.41.05:784][ 77]Display: HotReload took  0.2s.
+[2021.10.06-14.50.37:941][252]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2021.10.06-14.50.37:957][252]LogContentBrowser: Verbose: The majority of assets in the view are of type: Skeleton
+[2021.10.06-14.50.40:424][252]LogContentBrowser: Verbose: The majority of assets in the view are of type: Skeleton
+[2021.10.06-14.50.47:076][252]LogSlate: Window 'Create Animation Blueprint' being destroyed
+[2021.10.06-14.50.47:084][252]LogContentBrowser: Deferred new asset file creation: NewAnimBlueprint
+[2021.10.06-14.50.47:095][252]LogContentBrowser: Creating deferred item: NewAnimBlueprint
+[2021.10.06-14.50.52:909][918]LogContentBrowser: Attempting asset rename: NewAnimBlueprint -> Hero_ABP
+[2021.10.06-14.50.52:925][918]LogContentBrowser: End creating deferred item NewAnimBlueprint
+[2021.10.06-14.51.23:365][ 62]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2021.10.06-14.51.30:718][900]BlueprintLog: New page: Compile Hero_BP
+[2021.10.06-14.51.30:938][900]LogUObjectHash: Compacting FUObjectHashTables data took   3.87ms
+[2021.10.06-14.51.31:365][924]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Characters/Hero_BP" FILE="../../../../../../Users/aremond/Documents/GitHub/UE4InfiltrationGame/Content/Characters/Hero_BP.uasset" SILENT=true
+[2021.10.06-14.51.31:372][924]LogSavePackage: Moving '../../../../../../Users/aremond/Documents/GitHub/UE4InfiltrationGame/Saved/Hero_BP201D03A4447FA00C53323F9DC3EE8ACD.tmp' to '../../../../../../Users/aremond/Documents/GitHub/UE4InfiltrationGame/Content/Characters/Hero_BP.uasset'
+[2021.10.06-14.51.31:380][924]AssetCheck: New page: Asset Save: Hero_BP
+[2021.10.06-14.51.31:380][924]LogContentValidation: Display: Validating Blueprint /Game/Characters/Hero_BP.Hero_BP
+[2021.10.06-14.51.55:680][ 89]LogUObjectHash: Compacting FUObjectHashTables data took   2.40ms
+[2021.10.06-14.51.55:688][ 89]LogSavePackage: Moving '../../../../../../Users/aremond/Documents/GitHub/UE4InfiltrationGame/Saved/MainMap_Auto42071768E416541F99A6427B4FCB07AC4.tmp' to '../../../../../../Users/aremond/Documents/GitHub/UE4InfiltrationGame/Saved/Autosaves/Game/Maps/MainMap_Auto4.umap'
+[2021.10.06-14.51.55:689][ 89]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/Maps/MainMap' took 0.046
+[2021.10.06-14.51.55:689][ 89]LogFileHelpers: Editor autosave (incl. sublevels & external actors) for all levels took 0.046
+[2021.10.06-15.00.10:918][841]LogAssetEditorSubsystem: Opening Asset editor for AnimBlueprint /Game/Characters/Hero_ABP.Hero_ABP
+[2021.10.06-15.00.10:961][841]LogNativeClassHierarchy: Verbose: Native class hierarchy updated for 'SkeletonEditor' in 0.0002 seconds. Added 1 classes and 2 folders.
+[2021.10.06-15.00.10:967][841]LogTexture: Default maximum texture size for cubemaps generated from long-lat sources has been changed from 512 to unlimited. In order to preserve old behaiour for '/Engine/EditorMaterials/AssetViewer/EpicQuadPanorama_CC+EV1.EpicQuadPanorama_CC+EV1', its maximum texture size has been explicitly set to 512.
+[2021.10.06-15.00.11:038][841]LogTexture: Default maximum texture size for cubemaps generated from long-lat sources has been changed from 512 to unlimited. In order to preserve old behaiour for '/Engine/MapTemplates/Sky/SunsetAmbientCubemap.SunsetAmbientCubemap', its maximum texture size has been explicitly set to 512.
+[2021.10.06-15.00.11:108][841]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_12:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2021.10.06-15.00.11:112][841]LogNativeClassHierarchy: Verbose: Native class hierarchy updated for 'PinnedCommandList' in 0.0002 seconds. Added 1 classes and 0 folders.
+[2021.10.06-15.03.47:100][342]LogContentBrowser: Verbose: The majority of assets in the view are of type: AnimSequence
+[2021.10.06-15.03.52:509][854]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/Quaternius/Characters/Ultimate_Animated_Characters_Pack/Knight_Male/Knight_Male_Anim_CharacterArmature_Idle.Knight_Male_Anim_CharacterArmature_Idle
+[2021.10.06-15.05.43:361][908]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/Quaternius/Characters/Ultimate_Animated_Characters_Pack/Knight_Male/Knight_Male_Anim_CharacterArmature_Walk.Knight_Male_Anim_CharacterArmature_Walk
+[2021.10.06-15.09.25:176][804]LogHotReload: New module detected: UE4Editor-GC_UE4CPP-0059.dll
+[2021.10.06-15.09.25:868][807]LogHotReload: Starting Hot-Reload from IDE
+[2021.10.06-15.09.25:893][807]LogClass: Could not find existing class CharacterAnimInstance in package /Script/GC_UE4CPP for HotReload, assuming new class
+[2021.10.06-15.09.25:893][807]LogClass: Function UpdateAnimationProperties is new.
+[2021.10.06-15.09.25:917][807]LogHotReload: Re-instancing CharacterAnimInstance after hot-reload.
+[2021.10.06-15.09.25:923][807]LogBlueprint: Warning: [AssetLog] /Game/Characters/Hero_ABP.Hero_ABP (no disk path found): [Compiler] Idle to Walk  will never be taken, please connect something to  Can Enter Transition
+[2021.10.06-15.09.25:923][807]LogBlueprint: Warning: [AssetLog] /Game/Characters/Hero_ABP.Hero_ABP (no disk path found): [Compiler] Walk to Idle  will never be taken, please connect something to  Can Enter Transition
+[2021.10.06-15.09.25:964][807]LogNativeClassHierarchy: Verbose: Native class hierarchy updated for 'GC_UE4CPP' in 0.0003 seconds. Added 4 classes and 3 folders.
+[2021.10.06-15.09.25:970][807]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2021.10.06-15.09.26:087][807]LogNativeClassHierarchy: Verbose: Native class hierarchy populated in 0.0074 seconds. Added 3827 classes and 933 folders.
+[2021.10.06-15.09.26:089][807]Display: HotReload took  0.2s.
+[2021.10.06-15.09.28:205][813]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/MainMap" FILE="../../../../../../Users/aremond/Documents/GitHub/UE4InfiltrationGame/Content/Maps/MainMap.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2021.10.06-15.09.28:276][813]LogUObjectHash: Compacting FUObjectHashTables data took   4.17ms
+[2021.10.06-15.09.28:283][813]LogSavePackage: Moving '../../../../../../Users/aremond/Documents/GitHub/UE4InfiltrationGame/Saved/MainMap65F5C5B4405C5CD7F1C7A5980F815B4E.tmp' to '../../../../../../Users/aremond/Documents/GitHub/UE4InfiltrationGame/Content/Maps/MainMap.umap'
+[2021.10.06-15.09.28:288][813]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/MainMap_BuiltData" FILE="../../../../../../Users/aremond/Documents/GitHub/UE4InfiltrationGame/Content/Maps/MainMap_BuiltData.uasset" SILENT=true
+[2021.10.06-15.09.28:299][813]LogSavePackage: Moving '../../../../../../Users/aremond/Documents/GitHub/UE4InfiltrationGame/Saved/MainMap_BuiltDataB9433E414DD13F149A690C95D5CAB4D2.tmp' to '../../../../../../Users/aremond/Documents/GitHub/UE4InfiltrationGame/Content/Maps/MainMap_BuiltData.uasset'
+[2021.10.06-15.09.28:310][813]AssetCheck: New page: Asset Save: multiple assets
+[2021.10.06-15.09.28:310][813]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/Maps/MainMap_BuiltData.MainMap_BuiltData
+[2021.10.06-15.09.28:310][813]LogContentValidation: Display: Validating World /Game/Maps/MainMap.MainMap
+[2021.10.06-15.10.01:376][851]BlueprintLog: New page: Compile Hero_ABP
+[2021.10.06-15.10.01:379][851]LogBlueprint: Warning: [AssetLog] /Game/Characters/Hero_ABP.Hero_ABP (no disk path found): [Compiler] Walk to Idle  will never be taken, please connect something to  Can Enter Transition
+[2021.10.06-15.10.01:437][851]LogUObjectHash: Compacting FUObjectHashTables data took   3.38ms
+[2021.10.06-15.10.30:176][917]BlueprintLog: New page: Compile Hero_ABP
+[2021.10.06-15.10.30:214][917]LogUObjectHash: Compacting FUObjectHashTables data took   3.23ms
+[2021.10.06-15.10.30:861][970]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Characters/Hero_ABP" FILE="../../../../../../Users/aremond/Documents/GitHub/UE4InfiltrationGame/Content/Characters/Hero_ABP.uasset" SILENT=true
+[2021.10.06-15.10.30:875][970]LogSavePackage: Moving '../../../../../../Users/aremond/Documents/GitHub/UE4InfiltrationGame/Saved/Hero_ABP1CE8F17C410CF849E703F983C55ED917.tmp' to '../../../../../../Users/aremond/Documents/GitHub/UE4InfiltrationGame/Content/Characters/Hero_ABP.uasset'
+[2021.10.06-15.10.30:886][970]AssetCheck: New page: Asset Save: Hero_ABP
+[2021.10.06-15.10.30:886][970]LogContentValidation: Display: Validating AnimBlueprint /Game/Characters/Hero_ABP.Hero_ABP
+[2021.10.06-15.10.44:052][358]LogTemp: Repeating last play command: Selected Viewport
+[2021.10.06-15.10.44:056][358]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.10.06-15.10.44:056][358]PIE: New page: PIE session: MainMap (6 oct. 2021 à 19:10:44)
+[2021.10.06-15.10.44:082][358]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_MainMap
+[2021.10.06-15.10.44:084][358]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002556s)
+[2021.10.06-15.10.44:085][358]LogAIModule: Creating AISystem for world MainMap
+[2021.10.06-15.10.44:085][358]LogPlayLevel: PIE: World Init took: (0.001015s)
+[2021.10.06-15.10.44:086][358]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/MainMap.MainMap to /Game/Maps/UEDPIE_0_MainMap.MainMap (0.003729s)
+[2021.10.06-15.10.44:109][358]LogUObjectHash: Compacting FUObjectHashTables data took   2.76ms
+[2021.10.06-15.10.44:111][358]LogAudio: Display: Creating Audio Device:                 Id: 68, Scope: Unique, Realtime: True
+[2021.10.06-15.10.44:111][358]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.10.06-15.10.44:111][358]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.10.06-15.10.44:111][358]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.10.06-15.10.44:111][358]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.10.06-15.10.44:111][358]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.10.06-15.10.44:111][358]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.10.06-15.10.44:111][358]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.10.06-15.10.44:111][358]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.10.06-15.10.44:112][358]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2021.10.06-15.10.44:112][358]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2021.10.06-15.10.44:112][358]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2021.10.06-15.10.44:112][358]LogAudioMixer: Display: Initializing audio mixer.
+[2021.10.06-15.10.44:113][358]LogAudioMixer: Display: Using Audio Device Unknown
+[2021.10.06-15.10.44:113][358]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.10.06-15.10.44:113][358]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.10.06-15.10.44:113][358]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.10.06-15.10.44:113][358]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.10.06-15.10.44:113][358]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2021.10.06-15.10.44:113][358]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2021.10.06-15.10.44:113][358]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2021.10.06-15.10.44:113][358]LogAudioMixer: Display: StartRunningNullDevice() called
+[2021.10.06-15.10.44:114][358]LogInit: FAudioDevice initialized.
+[2021.10.06-15.10.44:114][358]LogAudio: Display: Audio Device (ID: 68) registered with world 'MainMap'.
+[2021.10.06-15.10.44:125][358]LogLoad: Game class is 'GameMode_BP_C'
+[2021.10.06-15.10.44:126][358]LogWorld: Bringing World /Game/Maps/UEDPIE_0_MainMap.MainMap up for play (max tick rate 0) at 2021.10.06-17.10.44
+[2021.10.06-15.10.44:126][358]LogWorld: Bringing up level for play took: 0.000913
+[2021.10.06-15.10.44:127][358]LogOnline: OSS: Creating online subsystem instance for: :Context_82
+[2021.10.06-15.10.44:129][358]PIE: Server logged in
+[2021.10.06-15.10.44:129][358]PIE: Play in editor total start time 0,074 seconds.
+[2021.10.06-15.11.36:084][584]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.10.06-15.11.36:084][584]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_MainMap
+[2021.10.06-15.11.36:084][584]LogWorld: UWorld::CleanupWorld for MainMap, bSessionEnded=true, bCleanupResources=true
+[2021.10.06-15.11.36:084][584]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.10.06-15.11.36:090][584]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.10.06-15.11.36:141][584]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.10.06-15.11.36:162][584]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2021.10.06-15.11.36:162][584]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.10.06-15.11.36:163][584]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.10.06-15.11.36:163][584]LogAudioMixer: Display: StopRunningNullDevice() called
+[2021.10.06-15.11.36:167][584]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.10.06-15.11.36:171][584]LogUObjectHash: Compacting FUObjectHashTables data took   2.49ms
+[2021.10.06-15.11.36:215][585]LogPlayLevel: Display: Destroying online subsystem :Context_82
+[2021.10.06-15.17.57:302][756]BlueprintLog: New page: Compile Hero_BP
+[2021.10.06-15.17.57:460][756]LogUObjectHash: Compacting FUObjectHashTables data took   2.85ms
+[2021.10.06-15.17.57:805][791]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Characters/Hero_BP" FILE="../../../../../../Users/aremond/Documents/GitHub/UE4InfiltrationGame/Content/Characters/Hero_BP.uasset" SILENT=true
+[2021.10.06-15.17.57:811][791]LogSavePackage: Moving '../../../../../../Users/aremond/Documents/GitHub/UE4InfiltrationGame/Saved/Hero_BPDE2DAC17426D67F16543AF83E162AEB9.tmp' to '../../../../../../Users/aremond/Documents/GitHub/UE4InfiltrationGame/Content/Characters/Hero_BP.uasset'
+[2021.10.06-15.17.57:820][791]AssetCheck: New page: Asset Save: Hero_BP
+[2021.10.06-15.17.57:820][791]LogContentValidation: Display: Validating Blueprint /Game/Characters/Hero_BP.Hero_BP
+[2021.10.06-15.17.58:483][865]LogTemp: Repeating last play command: Selected Viewport
+[2021.10.06-15.17.58:489][865]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.10.06-15.17.58:489][865]PIE: New page: PIE session: MainMap (6 oct. 2021 à 19:17:58)
+[2021.10.06-15.17.58:489][865]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_MainMap
+[2021.10.06-15.17.58:492][865]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002502s)
+[2021.10.06-15.17.58:493][865]LogAIModule: Creating AISystem for world MainMap
+[2021.10.06-15.17.58:493][865]LogPlayLevel: PIE: World Init took: (0.001140s)
+[2021.10.06-15.17.58:493][865]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/MainMap.MainMap to /Game/Maps/UEDPIE_0_MainMap.MainMap (0.003743s)
+[2021.10.06-15.17.58:517][865]LogUObjectHash: Compacting FUObjectHashTables data took   2.79ms
+[2021.10.06-15.17.58:517][865]LogAudio: Display: Creating Audio Device:                 Id: 69, Scope: Unique, Realtime: True
+[2021.10.06-15.17.58:517][865]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.10.06-15.17.58:517][865]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.10.06-15.17.58:517][865]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.10.06-15.17.58:517][865]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.10.06-15.17.58:517][865]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.10.06-15.17.58:517][865]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.10.06-15.17.58:517][865]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.10.06-15.17.58:517][865]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.10.06-15.17.58:518][865]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2021.10.06-15.17.58:518][865]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2021.10.06-15.17.58:518][865]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2021.10.06-15.17.58:518][865]LogAudioMixer: Display: Initializing audio mixer.
+[2021.10.06-15.17.58:519][865]LogAudioMixer: Display: Using Audio Device Unknown
+[2021.10.06-15.17.58:519][865]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.10.06-15.17.58:519][865]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.10.06-15.17.58:519][865]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.10.06-15.17.58:519][865]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.10.06-15.17.58:519][865]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2021.10.06-15.17.58:519][865]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2021.10.06-15.17.58:520][865]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2021.10.06-15.17.58:520][865]LogAudioMixer: Display: StartRunningNullDevice() called
+[2021.10.06-15.17.58:521][865]LogInit: FAudioDevice initialized.
+[2021.10.06-15.17.58:521][865]LogAudio: Display: Audio Device (ID: 69) registered with world 'MainMap'.
+[2021.10.06-15.17.58:564][865]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.10.06-15.17.58:564][865]LogLoad: Game class is 'GameMode_BP_C'
+[2021.10.06-15.17.58:565][865]LogWorld: Bringing World /Game/Maps/UEDPIE_0_MainMap.MainMap up for play (max tick rate 0) at 2021.10.06-17.17.58
+[2021.10.06-15.17.58:566][865]LogWorld: Bringing up level for play took: 0.001079
+[2021.10.06-15.17.58:566][865]LogOnline: OSS: Creating online subsystem instance for: :Context_83
+[2021.10.06-15.17.58:569][865]PIE: Server logged in
+[2021.10.06-15.17.58:569][865]PIE: Play in editor total start time 0,083 seconds.
+[2021.10.06-15.18.16:187][958]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.10.06-15.18.16:187][958]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_MainMap
+[2021.10.06-15.18.16:187][958]LogSlate: Window 'GC_UE4CPP Preview [NetMode: Standalone]  (64-bit/Windows) ' being destroyed
+[2021.10.06-15.18.16:194][958]LogWorld: UWorld::CleanupWorld for MainMap, bSessionEnded=true, bCleanupResources=true
+[2021.10.06-15.18.16:194][958]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.10.06-15.18.16:202][958]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.10.06-15.18.16:253][958]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.10.06-15.18.16:274][958]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2021.10.06-15.18.16:274][958]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.10.06-15.18.16:275][958]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.10.06-15.18.16:275][958]LogAudioMixer: Display: StopRunningNullDevice() called
+[2021.10.06-15.18.16:295][958]LogUObjectHash: Compacting FUObjectHashTables data took   2.16ms
+[2021.10.06-15.18.16:309][959]LogPlayLevel: Display: Destroying online subsystem :Context_83
+[2021.10.06-15.19.35:294][440]LogHotReload: New module detected: UE4Editor-GC_UE4CPP-0060.dll
+[2021.10.06-15.19.35:916][502]LogHotReload: Starting Hot-Reload from IDE
+[2021.10.06-15.19.35:936][502]LogClass: Could not find existing class CharacterAnimInstance in package /Script/GC_UE4CPP for HotReload, assuming new class
+[2021.10.06-15.19.35:950][502]LogHotReload: Re-instancing CharacterAnimInstance after hot-reload.
+[2021.10.06-15.19.36:001][502]LogHotReload: Re-instancing Hero after hot-reload.
+[2021.10.06-15.19.36:167][502]LogNativeClassHierarchy: Verbose: Native class hierarchy updated for 'GC_UE4CPP' in 0.0002 seconds. Added 4 classes and 3 folders.
+[2021.10.06-15.19.36:172][502]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2021.10.06-15.19.36:303][502]LogNativeClassHierarchy: Verbose: Native class hierarchy populated in 0.0136 seconds. Added 3827 classes and 933 folders.
+[2021.10.06-15.19.36:306][502]Display: HotReload took  0.4s.
+[2021.10.06-15.19.38:754][724]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Characters/Hero_ABP" FILE="../../../../../../Users/aremond/Documents/GitHub/UE4InfiltrationGame/Content/Characters/Hero_ABP.uasset" SILENT=true
+[2021.10.06-15.19.38:765][724]LogSavePackage: Moving '../../../../../../Users/aremond/Documents/GitHub/UE4InfiltrationGame/Saved/Hero_ABP1C20116C41273BA5F1CB89995D6842B6.tmp' to '../../../../../../Users/aremond/Documents/GitHub/UE4InfiltrationGame/Content/Characters/Hero_ABP.uasset'
+[2021.10.06-15.19.38:775][724]AssetCheck: New page: Asset Save: Hero_ABP
+[2021.10.06-15.19.38:775][724]LogContentValidation: Display: Validating AnimBlueprint /Game/Characters/Hero_ABP.Hero_ABP
+[2021.10.06-15.19.40:942][940]LogTemp: Repeating last play command: Selected Viewport
+[2021.10.06-15.19.40:946][940]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.10.06-15.19.40:946][940]PIE: New page: PIE session: MainMap (6 oct. 2021 à 19:19:40)
+[2021.10.06-15.19.40:946][940]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_MainMap
+[2021.10.06-15.19.40:948][940]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002370s)
+[2021.10.06-15.19.40:949][940]LogAIModule: Creating AISystem for world MainMap
+[2021.10.06-15.19.40:949][940]LogPlayLevel: PIE: World Init took: (0.000919s)
+[2021.10.06-15.19.40:949][940]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/MainMap.MainMap to /Game/Maps/UEDPIE_0_MainMap.MainMap (0.003375s)
+[2021.10.06-15.19.41:006][940]LogUObjectHash: Compacting FUObjectHashTables data took   4.07ms
+[2021.10.06-15.19.41:008][940]LogAudio: Display: Creating Audio Device:                 Id: 70, Scope: Unique, Realtime: True
+[2021.10.06-15.19.41:008][940]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.10.06-15.19.41:008][940]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.10.06-15.19.41:008][940]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.10.06-15.19.41:008][940]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.10.06-15.19.41:008][940]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.10.06-15.19.41:008][940]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.10.06-15.19.41:008][940]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.10.06-15.19.41:008][940]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.10.06-15.19.41:009][940]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2021.10.06-15.19.41:009][940]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2021.10.06-15.19.41:009][940]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2021.10.06-15.19.41:009][940]LogAudioMixer: Display: Initializing audio mixer.
+[2021.10.06-15.19.41:009][940]LogAudioMixer: Display: Using Audio Device Unknown
+[2021.10.06-15.19.41:010][940]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.10.06-15.19.41:010][940]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.10.06-15.19.41:010][940]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.10.06-15.19.41:010][940]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.10.06-15.19.41:010][940]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2021.10.06-15.19.41:010][940]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2021.10.06-15.19.41:011][940]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2021.10.06-15.19.41:011][940]LogAudioMixer: Display: StartRunningNullDevice() called
+[2021.10.06-15.19.41:012][940]LogInit: FAudioDevice initialized.
+[2021.10.06-15.19.41:012][940]LogAudio: Display: Audio Device (ID: 70) registered with world 'MainMap'.
+[2021.10.06-15.19.41:063][940]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.10.06-15.19.41:063][940]LogLoad: Game class is 'GameMode_BP_C'
+[2021.10.06-15.19.41:065][940]LogWorld: Bringing World /Game/Maps/UEDPIE_0_MainMap.MainMap up for play (max tick rate 0) at 2021.10.06-17.19.41
+[2021.10.06-15.19.41:065][940]LogWorld: Bringing up level for play took: 0.001159
+[2021.10.06-15.19.41:065][940]LogOnline: OSS: Creating online subsystem instance for: :Context_84
+[2021.10.06-15.19.41:068][940]PIE: Server logged in
+[2021.10.06-15.19.41:069][940]PIE: Play in editor total start time 0,123 seconds.
+[2021.10.06-15.19.44:085][289]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.10.06-15.19.44:085][289]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_MainMap
+[2021.10.06-15.19.44:086][289]LogSlate: Window 'GC_UE4CPP Preview [NetMode: Standalone]  (64-bit/Windows) ' being destroyed
+[2021.10.06-15.19.44:091][289]LogWorld: UWorld::CleanupWorld for MainMap, bSessionEnded=true, bCleanupResources=true
+[2021.10.06-15.19.44:091][289]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.10.06-15.19.44:102][289]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.10.06-15.19.44:153][289]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.10.06-15.19.44:174][289]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2021.10.06-15.19.44:179][289]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.10.06-15.19.44:180][289]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.10.06-15.19.44:180][289]LogAudioMixer: Display: StopRunningNullDevice() called
+[2021.10.06-15.19.44:210][289]LogUObjectHash: Compacting FUObjectHashTables data took   2.98ms
+[2021.10.06-15.19.44:224][290]LogPlayLevel: Display: Destroying online subsystem :Context_84
+[2021.10.06-15.20.41:642][749]LogUObjectHash: Compacting FUObjectHashTables data took   2.56ms
+[2021.10.06-15.20.41:649][749]LogSavePackage: Moving '../../../../../../Users/aremond/Documents/GitHub/UE4InfiltrationGame/Saved/MainMap_Auto593803FE84962281D8538F1B67CEAB61E.tmp' to '../../../../../../Users/aremond/Documents/GitHub/UE4InfiltrationGame/Saved/Autosaves/Game/Maps/MainMap_Auto5.umap'
+[2021.10.06-15.20.41:650][749]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/Maps/MainMap' took 0.032
+[2021.10.06-15.20.41:650][749]LogFileHelpers: Editor autosave (incl. sublevels & external actors) for all levels took 0.032
+[2021.10.06-15.23.58:276][461]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Characters/Hero_ABP" FILE="../../../../../../Users/aremond/Documents/GitHub/UE4InfiltrationGame/Content/Characters/Hero_ABP.uasset" SILENT=true
+[2021.10.06-15.23.58:285][461]LogSavePackage: Moving '../../../../../../Users/aremond/Documents/GitHub/UE4InfiltrationGame/Saved/Hero_ABP7EE1D5824AD31CD997799AAE927C7E5D.tmp' to '../../../../../../Users/aremond/Documents/GitHub/UE4InfiltrationGame/Content/Characters/Hero_ABP.uasset'
+[2021.10.06-15.23.58:295][461]AssetCheck: New page: Asset Save: Hero_ABP
+[2021.10.06-15.23.58:295][461]LogContentValidation: Display: Validating AnimBlueprint /Game/Characters/Hero_ABP.Hero_ABP
+[2021.10.06-15.26.17:097][826]LogAssetEditorSubsystem: Opening Asset editor for AnimSequence /Game/Characters/Knight_Male_Anim_CharacterArmature_Idle.Knight_Male_Anim_CharacterArmature_Idle
+[2021.10.06-15.26.17:131][826]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_15:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2021.10.06-15.26.17:539][826]LogContentBrowser: Verbose: The majority of assets in the view are of type: AnimSequence
+[2021.10.06-15.26.22:708][332]LogAssetEditorSubsystem: Opening Asset editor for Skeleton /Game/Quaternius/Characters/Ultimate_Animated_Characters_Pack/Knight_Male/Knight_Male_Skeleton.Knight_Male_Skeleton
+[2021.10.06-15.26.22:711][332]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_18:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2021.10.06-15.26.22:892][333]LogRenderer: Reallocating scene render targets to support 1280x884 Format 10 NumSamples 1 (Frame:1).
+[2021.10.06-15.29.11:689][773]Cmd: TRANSACTION UNDO
+[2021.10.06-15.29.11:689][773]LogEditorTransaction: Undo Translate Bone
+[2021.10.06-15.29.11:863][773]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_12:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2021.10.06-15.29.11:864][773]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_15:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2021.10.06-15.29.11:867][773]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_18:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2021.10.06-15.29.11:964][774]Cmd: TRANSACTION UNDO
+[2021.10.06-15.29.11:964][774]LogEditorTransaction: Undo Translate Bone
+[2021.10.06-15.29.12:118][774]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_12:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2021.10.06-15.29.12:119][774]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_15:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2021.10.06-15.29.12:122][774]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_18:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2021.10.06-15.29.12:455][795]Cmd: TRANSACTION UNDO
+[2021.10.06-15.29.12:455][795]LogEditorTransaction: Undo Translate Bone
+[2021.10.06-15.29.12:609][795]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_12:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2021.10.06-15.29.12:610][795]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_15:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2021.10.06-15.29.12:613][795]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_18:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2021.10.06-15.29.13:788][907]Cmd: TRANSACTION UNDO
+[2021.10.06-15.29.13:788][907]LogEditorTransaction: Undo Rotate Bone
+[2021.10.06-15.29.13:936][907]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_12:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2021.10.06-15.29.13:937][907]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_15:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2021.10.06-15.29.13:940][907]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_18:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2021.10.06-15.29.14:521][957]Cmd: TRANSACTION UNDO
+[2021.10.06-15.29.14:521][957]LogEditorTransaction: Undo Rotate Bone
+[2021.10.06-15.29.14:671][957]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_12:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2021.10.06-15.29.14:671][957]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_15:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2021.10.06-15.29.14:675][957]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_18:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2021.10.06-15.29.15:465][ 40]Cmd: TRANSACTION UNDO
+[2021.10.06-15.29.15:465][ 40]LogEditorTransaction: Undo Rotate Bone
+[2021.10.06-15.29.15:614][ 40]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_12:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2021.10.06-15.29.15:615][ 40]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_15:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2021.10.06-15.29.15:618][ 40]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_18:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2021.10.06-15.29.58:506][976]Cmd: TRANSACTION UNDO
+[2021.10.06-15.29.58:506][976]LogEditorTransaction: Undo Translate Bone
+[2021.10.06-15.29.58:657][976]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_12:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2021.10.06-15.29.58:658][976]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_15:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2021.10.06-15.29.58:661][976]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_18:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2021.10.06-15.30.13:731][682]Cmd: TRANSACTION UNDO
+[2021.10.06-15.30.13:731][682]LogEditorTransaction: Undo Translate Bone
+[2021.10.06-15.30.13:889][682]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_12:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2021.10.06-15.30.13:890][682]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_15:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2021.10.06-15.30.13:893][682]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_18:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2021.10.06-15.30.18:050][ 76]Cmd: TRANSACTION UNDO
+[2021.10.06-15.30.18:050][ 76]LogEditorTransaction: Undo Translate Bone
+[2021.10.06-15.30.18:199][ 76]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_12:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2021.10.06-15.30.18:200][ 76]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_15:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2021.10.06-15.30.18:203][ 76]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_18:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2021.10.06-15.30.26:863][ 15]Cmd: TRANSACTION UNDO
+[2021.10.06-15.30.26:863][ 15]LogEditorTransaction: Undo Translate Bone
+[2021.10.06-15.30.27:014][ 15]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_12:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2021.10.06-15.30.27:015][ 15]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_15:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2021.10.06-15.30.27:019][ 15]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_18:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2021.10.06-15.30.32:809][622]Cmd: TRANSACTION UNDO
+[2021.10.06-15.30.32:809][622]LogEditorTransaction: Undo Translate Bone
+[2021.10.06-15.30.32:958][622]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_12:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2021.10.06-15.30.32:959][622]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_15:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2021.10.06-15.30.32:962][622]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_18:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2021.10.06-15.30.34:065][693]Cmd: TRANSACTION UNDO
+[2021.10.06-15.30.34:065][693]LogEditorTransaction: Undo Translate Bone
+[2021.10.06-15.30.34:214][693]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_12:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2021.10.06-15.30.34:214][693]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_15:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2021.10.06-15.30.34:218][693]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_18:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2021.10.06-15.32.01:350][840]LogWorld: UWorld::CleanupWorld for World_15, bSessionEnded=true, bCleanupResources=true
+[2021.10.06-15.32.01:350][840]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.10.06-15.32.01:380][840]LogWorld: UWorld::CleanupWorld for World_17, bSessionEnded=true, bCleanupResources=true
+[2021.10.06-15.32.01:380][840]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.10.06-15.32.01:425][840]LogWorld: UWorld::CleanupWorld for World_16, bSessionEnded=true, bCleanupResources=true
+[2021.10.06-15.32.01:425][840]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.10.06-15.32.19:361][364]LogUObjectHash: Compacting FUObjectHashTables data took   4.22ms
+[2021.10.06-15.32.20:261][364]LogSlate: Window 'Delete Assets' being destroyed
+[2021.10.06-15.32.20:351][364]LogUObjectGlobals: Force Deleting 1 Package(s):
+	Asset Name: /Game/Characters/Knight_Male_Anim_CharacterArmature_Idle.Knight_Male_Anim_CharacterArmature_Idle
+[2021.10.06-15.32.21:081][364]LogUObjectHash: Compacting FUObjectHashTables data took   3.01ms
+[2021.10.06-15.32.23:661][650]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/MainMap" FILE="../../../../../../Users/aremond/Documents/GitHub/UE4InfiltrationGame/Content/Maps/MainMap.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2021.10.06-15.32.23:683][650]LogUObjectHash: Compacting FUObjectHashTables data took   2.09ms
+[2021.10.06-15.32.23:692][650]LogSavePackage: Moving '../../../../../../Users/aremond/Documents/GitHub/UE4InfiltrationGame/Saved/MainMapAB10597B4A7E53EB071A6196C0923C83.tmp' to '../../../../../../Users/aremond/Documents/GitHub/UE4InfiltrationGame/Content/Maps/MainMap.umap'
+[2021.10.06-15.32.23:696][650]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/MainMap_BuiltData" FILE="../../../../../../Users/aremond/Documents/GitHub/UE4InfiltrationGame/Content/Maps/MainMap_BuiltData.uasset" SILENT=true
+[2021.10.06-15.32.23:706][650]LogSavePackage: Moving '../../../../../../Users/aremond/Documents/GitHub/UE4InfiltrationGame/Saved/MainMap_BuiltDataFAEAA8AB4DAB30239F84B6A364CD4D22.tmp' to '../../../../../../Users/aremond/Documents/GitHub/UE4InfiltrationGame/Content/Maps/MainMap_BuiltData.uasset'
+[2021.10.06-15.32.23:715][650]AssetCheck: New page: Asset Save: multiple assets
+[2021.10.06-15.32.23:715][650]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/Maps/MainMap_BuiltData.MainMap_BuiltData
+[2021.10.06-15.32.23:715][650]LogContentValidation: Display: Validating World /Game/Maps/MainMap.MainMap
+[2021.10.06-15.32.24:445][730]LogTemp: Repeating last play command: Selected Viewport
+[2021.10.06-15.32.24:450][730]BlueprintLog: New page: Pre-Play auto-recompile
+[2021.10.06-15.32.24:450][730]LogPlayLevel: [PlayLevel] Compiling PROTO_BP_AnimBlueprint_0 before play...
+[2021.10.06-15.32.24:477][730]LogUObjectHash: Compacting FUObjectHashTables data took   2.21ms
+[2021.10.06-15.32.24:479][730]LogPlayLevel: PlayLevel: Blueprint regeneration took 27 ms (1 blueprints)
+[2021.10.06-15.32.24:479][730]PIE: New page: PIE session: MainMap (6 oct. 2021 à 19:32:24)
+[2021.10.06-15.32.24:479][730]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_MainMap
+[2021.10.06-15.32.24:481][730]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002230s)
+[2021.10.06-15.32.24:482][730]LogAIModule: Creating AISystem for world MainMap
+[2021.10.06-15.32.24:482][730]LogPlayLevel: PIE: World Init took: (0.000873s)
+[2021.10.06-15.32.24:482][730]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/MainMap.MainMap to /Game/Maps/UEDPIE_0_MainMap.MainMap (0.003198s)
+[2021.10.06-15.32.24:505][730]LogUObjectHash: Compacting FUObjectHashTables data took   2.39ms
+[2021.10.06-15.32.24:505][730]LogAudio: Display: Creating Audio Device:                 Id: 71, Scope: Unique, Realtime: True
+[2021.10.06-15.32.24:505][730]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.10.06-15.32.24:505][730]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.10.06-15.32.24:505][730]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.10.06-15.32.24:505][730]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.10.06-15.32.24:505][730]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.10.06-15.32.24:505][730]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.10.06-15.32.24:505][730]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.10.06-15.32.24:505][730]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.10.06-15.32.24:506][730]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2021.10.06-15.32.24:506][730]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2021.10.06-15.32.24:506][730]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2021.10.06-15.32.24:506][730]LogAudioMixer: Display: Initializing audio mixer.
+[2021.10.06-15.32.24:506][730]LogAudioMixer: Display: Using Audio Device Unknown
+[2021.10.06-15.32.24:507][730]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.10.06-15.32.24:507][730]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.10.06-15.32.24:507][730]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.10.06-15.32.24:507][730]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.10.06-15.32.24:507][730]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2021.10.06-15.32.24:507][730]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2021.10.06-15.32.24:508][730]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2021.10.06-15.32.24:508][730]LogAudioMixer: Display: StartRunningNullDevice() called
+[2021.10.06-15.32.24:509][730]LogInit: FAudioDevice initialized.
+[2021.10.06-15.32.24:509][730]LogAudio: Display: Audio Device (ID: 71) registered with world 'MainMap'.
+[2021.10.06-15.32.24:517][730]LogLoad: Game class is 'GameMode_BP_C'
+[2021.10.06-15.32.24:519][730]LogWorld: Bringing World /Game/Maps/UEDPIE_0_MainMap.MainMap up for play (max tick rate 0) at 2021.10.06-17.32.24
+[2021.10.06-15.32.24:519][730]LogWorld: Bringing up level for play took: 0.001086
+[2021.10.06-15.32.24:520][730]LogOnline: OSS: Creating online subsystem instance for: :Context_89
+[2021.10.06-15.32.24:522][730]PIE: Server logged in
+[2021.10.06-15.32.24:522][730]PIE: Play in editor total start time 0,074 seconds.
+[2021.10.06-15.33.05:812][677]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.10.06-15.33.05:812][677]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_MainMap
+[2021.10.06-15.33.05:812][677]LogWorld: UWorld::CleanupWorld for MainMap, bSessionEnded=true, bCleanupResources=true
+[2021.10.06-15.33.05:813][677]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.10.06-15.33.05:824][677]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.10.06-15.33.05:876][677]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.10.06-15.33.05:897][677]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.10.06-15.33.05:897][677]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.10.06-15.33.05:898][677]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.10.06-15.33.05:898][677]LogAudioMixer: Display: StopRunningNullDevice() called
+[2021.10.06-15.33.05:921][677]LogUObjectHash: Compacting FUObjectHashTables data took   2.27ms
+[2021.10.06-15.33.05:966][678]LogPlayLevel: Display: Destroying online subsystem :Context_89
+[2021.10.06-15.42.22:240][526]LogHotReload: New module detected: UE4Editor-GC_UE4CPP-0061.dll
+[2021.10.06-15.42.22:593][528]LogHotReload: Starting Hot-Reload from IDE
+[2021.10.06-15.42.22:633][528]LogNativeClassHierarchy: Verbose: Native class hierarchy updated for 'GC_UE4CPP' in 0.0003 seconds. Added 4 classes and 3 folders.
+[2021.10.06-15.42.22:638][528]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2021.10.06-15.42.22:753][528]LogNativeClassHierarchy: Verbose: Native class hierarchy populated in 0.0077 seconds. Added 3827 classes and 933 folders.
+[2021.10.06-15.42.22:756][528]Display: HotReload took  0.2s.
+[2021.10.06-15.42.23:576][530]BlueprintLog: New page: Compile Hero_ABP
+[2021.10.06-15.42.23:646][530]LogUObjectHash: Compacting FUObjectHashTables data took   3.96ms
+[2021.10.06-15.42.24:212][560]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Characters/Hero_ABP" FILE="../../../../../../Users/aremond/Documents/GitHub/UE4InfiltrationGame/Content/Characters/Hero_ABP.uasset" SILENT=true
+[2021.10.06-15.42.24:223][560]LogSavePackage: Moving '../../../../../../Users/aremond/Documents/GitHub/UE4InfiltrationGame/Saved/Hero_ABPF5745B3B4BAF55386D31E3B841C69D36.tmp' to '../../../../../../Users/aremond/Documents/GitHub/UE4InfiltrationGame/Content/Characters/Hero_ABP.uasset'
+[2021.10.06-15.42.24:234][560]AssetCheck: New page: Asset Save: Hero_ABP
+[2021.10.06-15.42.24:234][560]LogContentValidation: Display: Validating AnimBlueprint /Game/Characters/Hero_ABP.Hero_ABP
+[2021.10.06-15.42.26:206][772]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/MainMap" FILE="../../../../../../Users/aremond/Documents/GitHub/UE4InfiltrationGame/Content/Maps/MainMap.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2021.10.06-15.42.26:244][772]LogUObjectHash: Compacting FUObjectHashTables data took   2.88ms
+[2021.10.06-15.42.26:251][772]LogSavePackage: Moving '../../../../../../Users/aremond/Documents/GitHub/UE4InfiltrationGame/Saved/MainMap8F8F7E874692A98744E6D29CC4C029E7.tmp' to '../../../../../../Users/aremond/Documents/GitHub/UE4InfiltrationGame/Content/Maps/MainMap.umap'
+[2021.10.06-15.42.26:256][772]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/MainMap_BuiltData" FILE="../../../../../../Users/aremond/Documents/GitHub/UE4InfiltrationGame/Content/Maps/MainMap_BuiltData.uasset" SILENT=true
+[2021.10.06-15.42.26:265][772]LogSavePackage: Moving '../../../../../../Users/aremond/Documents/GitHub/UE4InfiltrationGame/Saved/MainMap_BuiltData24BC6CB048B6BDE10EF8CE952B951E96.tmp' to '../../../../../../Users/aremond/Documents/GitHub/UE4InfiltrationGame/Content/Maps/MainMap_BuiltData.uasset'
+[2021.10.06-15.42.26:275][772]AssetCheck: New page: Asset Save: multiple assets
+[2021.10.06-15.42.26:275][772]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/Maps/MainMap_BuiltData.MainMap_BuiltData
+[2021.10.06-15.42.26:275][772]LogContentValidation: Display: Validating World /Game/Maps/MainMap.MainMap

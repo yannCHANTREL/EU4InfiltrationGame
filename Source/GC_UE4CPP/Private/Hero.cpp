@@ -37,6 +37,7 @@ CameraZoomSteps(45.f)
 	// Configure character movement
 	GetCharacterMovement()->bOrientRotationToMovement = true; // Character rotate in the direction of input ...
 	GetCharacterMovement()->RotationRate = FRotator(0.f,540.f,0.f); // ... at this rate
+	GetCharacterMovement()->MaxWalkSpeed = 300.f;
 	
 }
 
