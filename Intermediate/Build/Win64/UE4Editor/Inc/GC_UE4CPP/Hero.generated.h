@@ -14,26 +14,8 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 #define GC_UE4CPP_Hero_generated_h
 
 #define UE4InfiltrationGame_Source_GC_UE4CPP_Public_Hero_h_14_SPARSE_DATA
-#define UE4InfiltrationGame_Source_GC_UE4CPP_Public_Hero_h_14_RPC_WRAPPERS \
- \
-	DECLARE_FUNCTION(execZoomOut); \
-	DECLARE_FUNCTION(execZoomIn); \
-	DECLARE_FUNCTION(execLookUpRate); \
-	DECLARE_FUNCTION(execTurnRate); \
-	DECLARE_FUNCTION(execMoveRight); \
-	DECLARE_FUNCTION(execMoveForward);
-
-
-#define UE4InfiltrationGame_Source_GC_UE4CPP_Public_Hero_h_14_RPC_WRAPPERS_NO_PURE_DECLS \
- \
-	DECLARE_FUNCTION(execZoomOut); \
-	DECLARE_FUNCTION(execZoomIn); \
-	DECLARE_FUNCTION(execLookUpRate); \
-	DECLARE_FUNCTION(execTurnRate); \
-	DECLARE_FUNCTION(execMoveRight); \
-	DECLARE_FUNCTION(execMoveForward);
-
-
+#define UE4InfiltrationGame_Source_GC_UE4CPP_Public_Hero_h_14_RPC_WRAPPERS
+#define UE4InfiltrationGame_Source_GC_UE4CPP_Public_Hero_h_14_RPC_WRAPPERS_NO_PURE_DECLS
 #define UE4InfiltrationGame_Source_GC_UE4CPP_Public_Hero_h_14_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesAHero(); \
@@ -76,7 +58,17 @@ public: \
 	DEFINE_DEFAULT_CONSTRUCTOR_CALL(AHero)
 
 
-#define UE4InfiltrationGame_Source_GC_UE4CPP_Public_Hero_h_14_PRIVATE_PROPERTY_OFFSET
+#define UE4InfiltrationGame_Source_GC_UE4CPP_Public_Hero_h_14_PRIVATE_PROPERTY_OFFSET \
+	FORCEINLINE static uint32 __PPO__CameraStick() { return STRUCT_OFFSET(AHero, CameraStick); } \
+	FORCEINLINE static uint32 __PPO__CameraComponent() { return STRUCT_OFFSET(AHero, CameraComponent); } \
+	FORCEINLINE static uint32 __PPO__BaseTurnRate() { return STRUCT_OFFSET(AHero, BaseTurnRate); } \
+	FORCEINLINE static uint32 __PPO__BaseLookUpRate() { return STRUCT_OFFSET(AHero, BaseLookUpRate); } \
+	FORCEINLINE static uint32 __PPO__MinCameraDistance() { return STRUCT_OFFSET(AHero, MinCameraDistance); } \
+	FORCEINLINE static uint32 __PPO__MaxCameraDistance() { return STRUCT_OFFSET(AHero, MaxCameraDistance); } \
+	FORCEINLINE static uint32 __PPO__CameraZoomSpeed() { return STRUCT_OFFSET(AHero, CameraZoomSpeed); } \
+	FORCEINLINE static uint32 __PPO__CameraZoomSteps() { return STRUCT_OFFSET(AHero, CameraZoomSteps); }
+
+
 #define UE4InfiltrationGame_Source_GC_UE4CPP_Public_Hero_h_11_PROLOG
 #define UE4InfiltrationGame_Source_GC_UE4CPP_Public_Hero_h_14_GENERATED_BODY_LEGACY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
