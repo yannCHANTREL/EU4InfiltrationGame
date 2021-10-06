@@ -17,6 +17,7 @@ void EmptyLinkFunctionForGeneratedCodeIACharacter() {}
 	GC_UE4CPP_API UClass* Z_Construct_UClass_AIACharacter();
 	ENGINE_API UClass* Z_Construct_UClass_ACharacter();
 	UPackage* Z_Construct_UPackage__Script_GC_UE4CPP();
+	AIMODULE_API UClass* Z_Construct_UClass_UBehaviorTree_NoRegister();
 // End Cross Module References
 	void AIACharacter::StaticRegisterNativesAIACharacter()
 	{
@@ -31,6 +32,11 @@ void EmptyLinkFunctionForGeneratedCodeIACharacter() {}
 #if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam Class_MetaDataParams[];
 #endif
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_BehaviourTree_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_BehaviourTree;
+		static const UE4CodeGen_Private::FPropertyParamsBase* const PropPointers[];
 		static const FCppClassTypeInfoStatic StaticCppClassTypeInfo;
 		static const UE4CodeGen_Private::FClassParams ClassParams;
 	};
@@ -45,6 +51,16 @@ void EmptyLinkFunctionForGeneratedCodeIACharacter() {}
 		{ "ModuleRelativePath", "Public/IACharacter.h" },
 	};
 #endif
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AIACharacter_Statics::NewProp_BehaviourTree_MetaData[] = {
+		{ "Category", "IACharacter" },
+		{ "ModuleRelativePath", "Public/IACharacter.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_AIACharacter_Statics::NewProp_BehaviourTree = { "BehaviourTree", nullptr, (EPropertyFlags)0x0010000000000001, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AIACharacter, BehaviourTree), Z_Construct_UClass_UBehaviorTree_NoRegister, METADATA_PARAMS(Z_Construct_UClass_AIACharacter_Statics::NewProp_BehaviourTree_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AIACharacter_Statics::NewProp_BehaviourTree_MetaData)) };
+	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_AIACharacter_Statics::PropPointers[] = {
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AIACharacter_Statics::NewProp_BehaviourTree,
+	};
 	const FCppClassTypeInfoStatic Z_Construct_UClass_AIACharacter_Statics::StaticCppClassTypeInfo = {
 		TCppClassTypeTraits<AIACharacter>::IsAbstract,
 	};
@@ -54,11 +70,11 @@ void EmptyLinkFunctionForGeneratedCodeIACharacter() {}
 		&StaticCppClassTypeInfo,
 		DependentSingletons,
 		nullptr,
-		nullptr,
+		Z_Construct_UClass_AIACharacter_Statics::PropPointers,
 		nullptr,
 		UE_ARRAY_COUNT(DependentSingletons),
 		0,
-		0,
+		UE_ARRAY_COUNT(Z_Construct_UClass_AIACharacter_Statics::PropPointers),
 		0,
 		0x009000A4u,
 		METADATA_PARAMS(Z_Construct_UClass_AIACharacter_Statics::Class_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UClass_AIACharacter_Statics::Class_MetaDataParams))
@@ -72,7 +88,7 @@ void EmptyLinkFunctionForGeneratedCodeIACharacter() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(AIACharacter, 1513960388);
+	IMPLEMENT_CLASS(AIACharacter, 812423115);
 	template<> GC_UE4CPP_API UClass* StaticClass<AIACharacter>()
 	{
 		return AIACharacter::StaticClass();

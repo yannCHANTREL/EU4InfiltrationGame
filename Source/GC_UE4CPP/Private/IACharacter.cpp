@@ -2,17 +2,12 @@
 
 
 #include "IACharacter.h"
-#include "Blueprint/AIBlueprintHelperLibrary.h"
 
 // Sets default values
 AIACharacter::AIACharacter()
 {
  	// Set this character to call Tick() every frame.  You can turn this off to improve performance if you don't need it.
 	PrimaryActorTick.bCanEverTick = true;
-
-	//Create BehaviourTree & Dashboard
-	
-
 }
 
 // Called when the game starts or when spawned

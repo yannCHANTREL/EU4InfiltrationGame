@@ -1,0 +1,5 @@
+C:\Users\bcanu\Documents\GitHub\UE4InfiltrationGame\Intermediate\Build\Win64\UE4Editor\Development\GC_UE4CPP\Definitions.GC_UE4CPP.h
+C:\Program Files\Epic Games\UE_4.27\Engine\Source\Runtime\CoreUObject\Public\UObject/GeneratedCppIncludes.h
+C:\Program Files\Epic Games\UE_4.27\Engine\Source\Runtime\CoreUObject\Public\UObject/MetaData.h
+C:\Users\bcanu\Documents\GitHub\UE4InfiltrationGame\Source\GC_UE4CPP/Public/AIPatrolPoint.h
+C:\Users\bcanu\Documents\GitHub\UE4InfiltrationGame\Intermediate\Build\Win64\UE4Editor\Inc\GC_UE4CPP\AIPatrolPoint.generated.h

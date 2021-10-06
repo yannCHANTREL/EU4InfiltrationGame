@@ -3,7 +3,7 @@
   <ItemGroup>
     <None Include="..\..\GC_UE4CPP.uproject" />
     <Filter Include="Source">
-      <UniqueIdentifier>{38A699CC-0227-4EFE-9F4E-BD3F6F017A47}</UniqueIdentifier>
+      <UniqueIdentifier>{396906DE-7522-403F-BB67-A540AE9B8098}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\GC_UE4CPP.Target.cs">
       <Filter>Source</Filter>
@@ -15,7 +15,7 @@
     <None Include="..\..\.gitignore" />
     <None Include="..\..\README.md" />
     <Filter Include="Config">
-      <UniqueIdentifier>{E96A2385-F76E-4D55-A516-1BCEAEBBB2FE}</UniqueIdentifier>
+      <UniqueIdentifier>{1BECC3A5-93C0-4118-8FF4-824A867CA436}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Config\DefaultEditor.ini">
       <Filter>Config</Filter>
@@ -26,8 +26,11 @@
     <None Include="..\..\Config\DefaultGame.ini">
       <Filter>Config</Filter>
     </None>
+    <None Include="..\..\Config\DefaultInput.ini">
+      <Filter>Config</Filter>
+    </None>
     <Filter Include="Source\GC_UE4CPP">
-      <UniqueIdentifier>{A0C5081C-C63D-4303-B351-C11989865962}</UniqueIdentifier>
+      <UniqueIdentifier>{D68F7188-6B9F-448C-BD59-EB003EF1E733}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\GC_UE4CPP\GC_UE4CPP.Build.cs">
       <Filter>Source\GC_UE4CPP</Filter>
@@ -45,8 +48,11 @@
       <Filter>Source\GC_UE4CPP</Filter>
     </ClInclude>
     <Filter Include="Source\GC_UE4CPP\Private">
-      <UniqueIdentifier>{9DE24D50-37DF-4BF5-8BBD-C964D1B0441B}</UniqueIdentifier>
+      <UniqueIdentifier>{4F9BFF69-6152-4CA3-96A2-7759E3A4FEB3}</UniqueIdentifier>
     </Filter>
+    <ClCompile Include="..\..\Source\GC_UE4CPP\Private\AIPatrolPoint.cpp">
+      <Filter>Source\GC_UE4CPP\Private</Filter>
+    </ClCompile>
     <ClCompile Include="..\..\Source\GC_UE4CPP\Private\BTT_ChasePlayer.cpp">
       <Filter>Source\GC_UE4CPP\Private</Filter>
     </ClCompile>
@@ -59,9 +65,15 @@
     <ClCompile Include="..\..\Source\GC_UE4CPP\Private\MyIAController.cpp">
       <Filter>Source\GC_UE4CPP\Private</Filter>
     </ClCompile>
+    <ClCompile Include="..\..\Source\GC_UE4CPP\Private\PatrolPoints.cpp">
+      <Filter>Source\GC_UE4CPP\Private</Filter>
+    </ClCompile>
     <Filter Include="Source\GC_UE4CPP\Public">
-      <UniqueIdentifier>{B971DEED-A10F-4EBE-9426-39CECDCA068C}</UniqueIdentifier>
+      <UniqueIdentifier>{8B21996C-315F-404C-855F-166F651EF30D}</UniqueIdentifier>
     </Filter>
+    <ClInclude Include="..\..\Source\GC_UE4CPP\Public\AIPatrolPoint.h">
+      <Filter>Source\GC_UE4CPP\Public</Filter>
+    </ClInclude>
     <ClInclude Include="..\..\Source\GC_UE4CPP\Public\BTT_ChasePlayer.h">
       <Filter>Source\GC_UE4CPP\Public</Filter>
     </ClInclude>
@@ -72,6 +84,9 @@
       <Filter>Source\GC_UE4CPP\Public</Filter>
     </ClInclude>
     <ClInclude Include="..\..\Source\GC_UE4CPP\Public\MyIAController.h">
+      <Filter>Source\GC_UE4CPP\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\GC_UE4CPP\Public\PatrolPoints.h">
       <Filter>Source\GC_UE4CPP\Public</Filter>
     </ClInclude>
   </ItemGroup>

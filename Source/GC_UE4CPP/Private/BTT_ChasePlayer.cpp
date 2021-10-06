@@ -11,8 +11,6 @@
 EBTNodeResult::Type UBTT_ChasePlayer::ExecuteTask(UBehaviorTreeComponent& OwnerComp, uint8* NodeMemory)
 {
 	AAIController* const Owner = OwnerComp.GetAIOwner();
-	UBlackboardComponent * Blackboard = Owner->GetBlackboardComponent();
-	FName NameKey = Blackboard->GetKeyName(0);
 
 	GEngine->AddOnScreenDebugMessage(-1, 15.0f, FColor::Yellow, TEXT("Some debug message!"));
 
