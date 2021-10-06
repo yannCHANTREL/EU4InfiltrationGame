@@ -39,6 +39,8 @@ C:\Program Files\Epic Games\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\In
 C:\Program Files\Epic Games\UE_4.27\Engine\Source\Runtime\Engine\Public\VisualLogger/VisualLoggerDebugSnapshotInterface.h
 C:\Program Files\Epic Games\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\VisualLoggerDebugSnapshotInterface.generated.h
 C:\Program Files\Epic Games\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\AIModule\AIController.generated.h
+C:\Users\bcanu\Documents\GitHub\UE4InfiltrationGame\Source\GC_UE4CPP\Public\AIPatrolPoint.h
+C:\Users\bcanu\Documents\GitHub\UE4InfiltrationGame\Intermediate\Build\Win64\UE4Editor\Inc\GC_UE4CPP\AIPatrolPoint.generated.h
 C:\Users\bcanu\Documents\GitHub\UE4InfiltrationGame\Source\GC_UE4CPP\Public\IACharacter.h
 C:\Program Files\Epic Games\UE_4.27\Engine\Source\Runtime\AIModule\Classes\BehaviorTree/BehaviorTree.h
 C:\Program Files\Epic Games\UE_4.27\Engine\Source\Runtime\AIModule\Classes\BehaviorTree/BTCompositeNode.h
@@ -76,8 +78,6 @@ C:\Program Files\Epic Games\UE_4.27\Engine\Source\Runtime\AIModule\Classes\Perce
 C:\Program Files\Epic Games\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\AIModule\AISense_Sight.generated.h
 C:\Program Files\Epic Games\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\AIModule\AISenseConfig_Sight.generated.h
 C:\Users\bcanu\Documents\GitHub\UE4InfiltrationGame\Intermediate\Build\Win64\UE4Editor\Inc\GC_UE4CPP\MyIAController.generated.h
-C:\Users\bcanu\Documents\GitHub\UE4InfiltrationGame\Source\GC_UE4CPP\Public\AIPatrolPoint.h
-C:\Users\bcanu\Documents\GitHub\UE4InfiltrationGame\Intermediate\Build\Win64\UE4Editor\Inc\GC_UE4CPP\AIPatrolPoint.generated.h
 C:\Program Files\Epic Games\UE_4.27\Engine\Source\Runtime\StaticMeshDescription\Public\StaticMeshAttributes.h
 C:\Program Files\Epic Games\UE_4.27\Engine\Source\Runtime\MeshDescription\Public\MeshAttributes.h
 C:\Program Files\Epic Games\UE_4.27\Engine\Source\Runtime\MeshDescription\Public\MeshDescription.h

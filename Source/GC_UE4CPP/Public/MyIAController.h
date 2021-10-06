@@ -4,6 +4,7 @@
 
 #include "CoreMinimal.h"
 #include "AIController.h"
+#include "AIPatrolPoint.h"
 #include "IACharacter.h"
 #include "BehaviorTree/BehaviorTreeComponent.h"
 #include "Perception/AISenseConfig_Sight.h"
@@ -39,6 +40,9 @@ class GC_UE4CPP_API AMyIAController : public AAIController
 
 	FORCEINLINE UBlackboardComponent* GetBlackboardComponent() const { return BlackboardComponent; }
 	FORCEINLINE TArray<AActor*> GetPatrolPoints() const { return PatrolPoints; }
+
+	void SetNextTargetAIPatrolPoint(AActor * NextTargetAIPatrolPoint);
+	AActor * GetRandomAIPatrolPoint(bool ExcludeCurrentPosition);
 	
 	protected:
 		virtual void OnPossess(APawn* InPawn) override;

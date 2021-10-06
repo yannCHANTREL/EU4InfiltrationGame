@@ -49,3 +49,45 @@ void AMyIAController::OnUnPossess()
 	GEngine->AddOnScreenDebugMessage(-1, 20, FColor::Red, "On UnPossess");
 }
 
+void AMyIAController::SetNextTargetAIPatrolPoint(AActor * NextTargetAIPatrolPoint)
+{
+	if(PatrolPoints.Contains(NextTargetAIPatrolPoint))
+	{
+		CurrentPatrolPoints = PatrolPoints.Find(NextTargetAIPatrolPoint);
+		BlackboardComponent->SetValueAsVector("PatrolLocation", NextTargetAIPatrolPoint->GetActorLocation());
+	}
+
+	else
+	{
+		UE_LOG(LogTemp, Warning, TEXT("Try to set an invalid patrol point") );
+	}
+}
+
+AActor * AMyIAController::GetRandomAIPatrolPoint(bool ExcludeCurrentPosition)
+{
+	int IndexNextPosition;
+	//Si on souhaite une position random autre que celle déjà occupée par l'IA
+	if(ExcludeCurrentPosition)
+	{
+		//On veut compris entre 0 et count-1, mais avec count = count - 1(position occupée à exclure)
+		IndexNextPosition = FMath::RandRange(0, GetPatrolPoints().Num()-2);
+		//Si le nombre obtenu est supérieur ou égal à l'index de la position courante, alors on l'incrémente car l'index
+		//des positions supérieures est faussé par le fait qu'on est random sur "count-2" et non sur "count-1" 
+		if(IndexNextPosition >= CurrentPatrolPoints)
+		{
+			IndexNextPosition++;
+		}		
+	}
+
+	else
+	{
+		IndexNextPosition = FMath::RandRange(0, GetPatrolPoints().Num()-1);		
+	}
+
+	if(IndexNextPosition >= GetPatrolPoints().Num())
+	{
+		IndexNextPosition = GetPatrolPoints().Num();
+	}
+	return  PatrolPoints[IndexNextPosition];
+}
+
