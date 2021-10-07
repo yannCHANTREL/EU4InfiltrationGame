@@ -13,6 +13,9 @@ FoodState(EFoodState::EFS_Dropped)
 	//Set up Mesh
 	StaticMesh = CreateDefaultSubobject<UStaticMeshComponent>(FName("Static Mesh"));
 	SetRootComponent(StaticMesh);
+	//Set up AreaSphere
+	AreaSphere = CreateDefaultSubobject<USphereComponent>(FName("AreaSphere"));
+	AreaSphere->SetupAttachment(StaticMesh);
 
 }
 
@@ -23,7 +26,8 @@ void AFood::BeginPlay()
 
 	// Setup overlap for AreaSphere
 	AreaSphere->OnComponentBeginOverlap.AddDynamic(this, &AFood::OnSphereBeginOverlap);
-	AreaSphere->OnComponentBeginOverlap.AddDynamic(this, &AFood::OnSphereEndOverlap);
+	AreaSphere->OnComponentEndOverlap.AddDynamic(this, &AFood::OnSphereEndOverlap);
+	SetFoodProperties(EFoodState::EFS_Dropped);
 	
 }
 
@@ -52,16 +56,19 @@ void AFood::SetFoodProperties(EFoodState State)
 	}
 }
 
-UPrimitiveComponent* AFood::OnSphereBeginOverlap(UPrimitiveComponent* OverlappedComponent, AActor* OtherActor,
+void AFood::OnSphereBeginOverlap(UPrimitiveComponent* OverlappedComponent, AActor* OtherActor,
 	UPrimitiveComponent* OtherComp, int32 OtherBodyIndex, bool bFromSweep, const FHitResult& SweepResult)
 {
-	
+	if(GEngine)
+		GEngine->AddOnScreenDebugMessage(-1,5.f,FColor::Red,TEXT("Begin Overlap With AreaSphere"));
+		
 }
 
-UPrimitiveComponent* AFood::OnSphereEndOverlap(UPrimitiveComponent* OverlappedComponent, AActor* OtherActor,
+void AFood::OnSphereEndOverlap(UPrimitiveComponent* OverlappedComponent, AActor* OtherActor,
 	UPrimitiveComponent* OtherComp, int32 OtherBodyIndex)
 {
-	
+	if(GEngine)
+		GEngine->AddOnScreenDebugMessage(-1,5.f,FColor::Red,TEXT("End Overlap With AreaSphere"));
 }
 
 // Called every frame

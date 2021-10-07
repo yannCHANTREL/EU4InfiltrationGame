@@ -6,19 +6,19 @@
 void UCharacterAnimInstance::NativeInitializeAnimation()
 {
 	Super::NativeInitializeAnimation();
-	Hero = Cast<AHero>(TryGetPawnOwner());
+	Character = Cast<ACharacter>(TryGetPawnOwner());
 }
 
 void UCharacterAnimInstance::NativeUpdateAnimation(float DeltaSeconds)
 {
 	Super::NativeUpdateAnimation(DeltaSeconds);
-	if(Hero == nullptr)
+	if(Character == nullptr)
 	{
-		Hero = Cast<AHero>(TryGetPawnOwner());// Double check - Useless ?
+		Character = Cast<ACharacter>(TryGetPawnOwner());// Double check - Useless ?
 	}
-	if(Hero)
+	if(Character)
 	{
-		FVector Velocity = Hero->GetVelocity();
+		FVector Velocity = Character->GetVelocity();
 		Velocity.Z = 0;
 		Speed = Velocity.Size();
 		// bVictory = GameState->bVictory // bDefeat = !GameState->bVictory

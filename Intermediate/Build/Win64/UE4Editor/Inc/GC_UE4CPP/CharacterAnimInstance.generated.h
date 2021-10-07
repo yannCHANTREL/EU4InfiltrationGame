@@ -61,7 +61,7 @@ public: \
 
 
 #define UE4InfiltrationGame_Source_GC_UE4CPP_Public_CharacterAnimInstance_h_16_PRIVATE_PROPERTY_OFFSET \
-	FORCEINLINE static uint32 __PPO__Hero() { return STRUCT_OFFSET(UCharacterAnimInstance, Hero); } \
+	FORCEINLINE static uint32 __PPO__Character() { return STRUCT_OFFSET(UCharacterAnimInstance, Character); } \
 	FORCEINLINE static uint32 __PPO__Speed() { return STRUCT_OFFSET(UCharacterAnimInstance, Speed); } \
 	FORCEINLINE static uint32 __PPO__bVictory() { return STRUCT_OFFSET(UCharacterAnimInstance, bVictory); } \
 	FORCEINLINE static uint32 __PPO__bDefeat() { return STRUCT_OFFSET(UCharacterAnimInstance, bDefeat); }

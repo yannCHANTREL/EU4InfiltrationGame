@@ -13,10 +13,10 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 #endif
 #define GC_UE4CPP_Hero_generated_h
 
-#define UE4InfiltrationGame_Source_GC_UE4CPP_Public_Hero_h_14_SPARSE_DATA
-#define UE4InfiltrationGame_Source_GC_UE4CPP_Public_Hero_h_14_RPC_WRAPPERS
-#define UE4InfiltrationGame_Source_GC_UE4CPP_Public_Hero_h_14_RPC_WRAPPERS_NO_PURE_DECLS
-#define UE4InfiltrationGame_Source_GC_UE4CPP_Public_Hero_h_14_INCLASS_NO_PURE_DECLS \
+#define UE4InfiltrationGame_Source_GC_UE4CPP_Public_Hero_h_15_SPARSE_DATA
+#define UE4InfiltrationGame_Source_GC_UE4CPP_Public_Hero_h_15_RPC_WRAPPERS
+#define UE4InfiltrationGame_Source_GC_UE4CPP_Public_Hero_h_15_RPC_WRAPPERS_NO_PURE_DECLS
+#define UE4InfiltrationGame_Source_GC_UE4CPP_Public_Hero_h_15_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesAHero(); \
 	friend struct Z_Construct_UClass_AHero_Statics; \
@@ -25,7 +25,7 @@ public: \
 	DECLARE_SERIALIZER(AHero)
 
 
-#define UE4InfiltrationGame_Source_GC_UE4CPP_Public_Hero_h_14_INCLASS \
+#define UE4InfiltrationGame_Source_GC_UE4CPP_Public_Hero_h_15_INCLASS \
 private: \
 	static void StaticRegisterNativesAHero(); \
 	friend struct Z_Construct_UClass_AHero_Statics; \
@@ -34,7 +34,7 @@ public: \
 	DECLARE_SERIALIZER(AHero)
 
 
-#define UE4InfiltrationGame_Source_GC_UE4CPP_Public_Hero_h_14_STANDARD_CONSTRUCTORS \
+#define UE4InfiltrationGame_Source_GC_UE4CPP_Public_Hero_h_15_STANDARD_CONSTRUCTORS \
 	/** Standard constructor, called after all reflected properties have been initialized */ \
 	NO_API AHero(const FObjectInitializer& ObjectInitializer); \
 	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(AHero) \
@@ -47,7 +47,7 @@ private: \
 public:
 
 
-#define UE4InfiltrationGame_Source_GC_UE4CPP_Public_Hero_h_14_ENHANCED_CONSTRUCTORS \
+#define UE4InfiltrationGame_Source_GC_UE4CPP_Public_Hero_h_15_ENHANCED_CONSTRUCTORS \
 private: \
 	/** Private move- and copy-constructors, should never be used */ \
 	NO_API AHero(AHero&&); \
@@ -58,7 +58,7 @@ public: \
 	DEFINE_DEFAULT_CONSTRUCTOR_CALL(AHero)
 
 
-#define UE4InfiltrationGame_Source_GC_UE4CPP_Public_Hero_h_14_PRIVATE_PROPERTY_OFFSET \
+#define UE4InfiltrationGame_Source_GC_UE4CPP_Public_Hero_h_15_PRIVATE_PROPERTY_OFFSET \
 	FORCEINLINE static uint32 __PPO__CameraStick() { return STRUCT_OFFSET(AHero, CameraStick); } \
 	FORCEINLINE static uint32 __PPO__CameraComponent() { return STRUCT_OFFSET(AHero, CameraComponent); } \
 	FORCEINLINE static uint32 __PPO__BaseTurnRate() { return STRUCT_OFFSET(AHero, BaseTurnRate); } \
@@ -69,27 +69,27 @@ public: \
 	FORCEINLINE static uint32 __PPO__CameraZoomSteps() { return STRUCT_OFFSET(AHero, CameraZoomSteps); }
 
 
-#define UE4InfiltrationGame_Source_GC_UE4CPP_Public_Hero_h_11_PROLOG
-#define UE4InfiltrationGame_Source_GC_UE4CPP_Public_Hero_h_14_GENERATED_BODY_LEGACY \
+#define UE4InfiltrationGame_Source_GC_UE4CPP_Public_Hero_h_12_PROLOG
+#define UE4InfiltrationGame_Source_GC_UE4CPP_Public_Hero_h_15_GENERATED_BODY_LEGACY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	UE4InfiltrationGame_Source_GC_UE4CPP_Public_Hero_h_14_PRIVATE_PROPERTY_OFFSET \
-	UE4InfiltrationGame_Source_GC_UE4CPP_Public_Hero_h_14_SPARSE_DATA \
-	UE4InfiltrationGame_Source_GC_UE4CPP_Public_Hero_h_14_RPC_WRAPPERS \
-	UE4InfiltrationGame_Source_GC_UE4CPP_Public_Hero_h_14_INCLASS \
-	UE4InfiltrationGame_Source_GC_UE4CPP_Public_Hero_h_14_STANDARD_CONSTRUCTORS \
+	UE4InfiltrationGame_Source_GC_UE4CPP_Public_Hero_h_15_PRIVATE_PROPERTY_OFFSET \
+	UE4InfiltrationGame_Source_GC_UE4CPP_Public_Hero_h_15_SPARSE_DATA \
+	UE4InfiltrationGame_Source_GC_UE4CPP_Public_Hero_h_15_RPC_WRAPPERS \
+	UE4InfiltrationGame_Source_GC_UE4CPP_Public_Hero_h_15_INCLASS \
+	UE4InfiltrationGame_Source_GC_UE4CPP_Public_Hero_h_15_STANDARD_CONSTRUCTORS \
 public: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
 
-#define UE4InfiltrationGame_Source_GC_UE4CPP_Public_Hero_h_14_GENERATED_BODY \
+#define UE4InfiltrationGame_Source_GC_UE4CPP_Public_Hero_h_15_GENERATED_BODY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	UE4InfiltrationGame_Source_GC_UE4CPP_Public_Hero_h_14_PRIVATE_PROPERTY_OFFSET \
-	UE4InfiltrationGame_Source_GC_UE4CPP_Public_Hero_h_14_SPARSE_DATA \
-	UE4InfiltrationGame_Source_GC_UE4CPP_Public_Hero_h_14_RPC_WRAPPERS_NO_PURE_DECLS \
-	UE4InfiltrationGame_Source_GC_UE4CPP_Public_Hero_h_14_INCLASS_NO_PURE_DECLS \
-	UE4InfiltrationGame_Source_GC_UE4CPP_Public_Hero_h_14_ENHANCED_CONSTRUCTORS \
+	UE4InfiltrationGame_Source_GC_UE4CPP_Public_Hero_h_15_PRIVATE_PROPERTY_OFFSET \
+	UE4InfiltrationGame_Source_GC_UE4CPP_Public_Hero_h_15_SPARSE_DATA \
+	UE4InfiltrationGame_Source_GC_UE4CPP_Public_Hero_h_15_RPC_WRAPPERS_NO_PURE_DECLS \
+	UE4InfiltrationGame_Source_GC_UE4CPP_Public_Hero_h_15_INCLASS_NO_PURE_DECLS \
+	UE4InfiltrationGame_Source_GC_UE4CPP_Public_Hero_h_15_ENHANCED_CONSTRUCTORS \
 private: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 

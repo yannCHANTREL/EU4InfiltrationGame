@@ -3,6 +3,7 @@
 
 #include "Hero.h"
 
+#include "GenericTeamAgentInterface.h"
 #include "Engine/SkeletalMeshSocket.h"
 #include "GameFramework/CharacterMovementComponent.h"
 
@@ -46,6 +47,7 @@ CameraZoomSteps(45.f)
 void AHero::BeginPlay()
 {
 	Super::BeginPlay();
+	
 	CamZoomDestination = CameraStick->TargetArmLength;
 }
 

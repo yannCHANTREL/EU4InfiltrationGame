@@ -22,7 +22,7 @@ public:
 
 private:
 	UPROPERTY(VisibleAnywhere, Category = Movement, meta = (AllowPrivateAccess = "true"))
-	AHero* Hero;
+	ACharacter* Character;
 	UPROPERTY(VisibleAnywhere,BlueprintReadOnly ,Category = Movement, meta = (AllowPrivateAccess = "true"))
 	float Speed;
 	UPROPERTY(VisibleAnywhere,BlueprintReadOnly ,Category = Movement, meta = (AllowPrivateAccess = "true"))
