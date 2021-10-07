@@ -19,7 +19,6 @@ void EmptyLinkFunctionForGeneratedCodeActor_GeneratorWall() {}
 	GC_UE4CPP_API UClass* Z_Construct_UClass_AActor_GeneratorWall();
 	ENGINE_API UClass* Z_Construct_UClass_AActor();
 	ENGINE_API UClass* Z_Construct_UClass_UInstancedStaticMeshComponent_NoRegister();
-	ENGINE_API UClass* Z_Construct_UClass_USceneComponent_NoRegister();
 // End Cross Module References
 	static UEnum* Axe_StaticEnum()
 	{
@@ -79,8 +78,43 @@ void EmptyLinkFunctionForGeneratedCodeActor_GeneratorWall() {}
 		}
 		return ReturnEnum;
 	}
+	DEFINE_FUNCTION(AActor_GeneratorWall::execCreateWallFromEditor)
+	{
+		P_FINISH;
+		P_NATIVE_BEGIN;
+		P_THIS->CreateWallFromEditor();
+		P_NATIVE_END;
+	}
 	void AActor_GeneratorWall::StaticRegisterNativesAActor_GeneratorWall()
 	{
+		UClass* Class = AActor_GeneratorWall::StaticClass();
+		static const FNameNativePtrPair Funcs[] = {
+			{ "CreateWallFromEditor", &AActor_GeneratorWall::execCreateWallFromEditor },
+		};
+		FNativeFunctionRegistrar::RegisterFunctions(Class, Funcs, UE_ARRAY_COUNT(Funcs));
+	}
+	struct Z_Construct_UFunction_AActor_GeneratorWall_CreateWallFromEditor_Statics
+	{
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam Function_MetaDataParams[];
+#endif
+		static const UE4CodeGen_Private::FFunctionParams FuncParams;
+	};
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_AActor_GeneratorWall_CreateWallFromEditor_Statics::Function_MetaDataParams[] = {
+		{ "CallInEditor", "true" },
+		{ "ModuleRelativePath", "Actor_GeneratorWall.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_AActor_GeneratorWall_CreateWallFromEditor_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_AActor_GeneratorWall, nullptr, "CreateWallFromEditor", nullptr, nullptr, 0, nullptr, 0, RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x00020401, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_AActor_GeneratorWall_CreateWallFromEditor_Statics::Function_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UFunction_AActor_GeneratorWall_CreateWallFromEditor_Statics::Function_MetaDataParams)) };
+	UFunction* Z_Construct_UFunction_AActor_GeneratorWall_CreateWallFromEditor()
+	{
+		static UFunction* ReturnFunction = nullptr;
+		if (!ReturnFunction)
+		{
+			UE4CodeGen_Private::ConstructUFunction(ReturnFunction, Z_Construct_UFunction_AActor_GeneratorWall_CreateWallFromEditor_Statics::FuncParams);
+		}
+		return ReturnFunction;
 	}
 	UClass* Z_Construct_UClass_AActor_GeneratorWall_NoRegister()
 	{
@@ -89,13 +123,10 @@ void EmptyLinkFunctionForGeneratedCodeActor_GeneratorWall() {}
 	struct Z_Construct_UClass_AActor_GeneratorWall_Statics
 	{
 		static UObject* (*const DependentSingletons[])();
+		static const FClassFunctionLinkInfo FuncInfo[];
 #if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam Class_MetaDataParams[];
 #endif
-#if WITH_METADATA
-		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_Axe_MetaData[];
-#endif
-		static const UE4CodeGen_Private::FBytePropertyParams NewProp_Axe;
 #if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_NumberWallX_MetaData[];
 #endif
@@ -108,10 +139,6 @@ void EmptyLinkFunctionForGeneratedCodeActor_GeneratorWall() {}
 		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_UnWallPrefab_MetaData[];
 #endif
 		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_UnWallPrefab;
-#if WITH_METADATA
-		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_SceneComponent_MetaData[];
-#endif
-		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_SceneComponent;
 		static const UE4CodeGen_Private::FPropertyParamsBase* const PropPointers[];
 		static const FCppClassTypeInfoStatic StaticCppClassTypeInfo;
 		static const UE4CodeGen_Private::FClassParams ClassParams;
@@ -120,19 +147,15 @@ void EmptyLinkFunctionForGeneratedCodeActor_GeneratorWall() {}
 		(UObject* (*)())Z_Construct_UClass_AActor,
 		(UObject* (*)())Z_Construct_UPackage__Script_GC_UE4CPP,
 	};
+	const FClassFunctionLinkInfo Z_Construct_UClass_AActor_GeneratorWall_Statics::FuncInfo[] = {
+		{ &Z_Construct_UFunction_AActor_GeneratorWall_CreateWallFromEditor, "CreateWallFromEditor" }, // 2761207382
+	};
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AActor_GeneratorWall_Statics::Class_MetaDataParams[] = {
 		{ "IncludePath", "Actor_GeneratorWall.h" },
 		{ "ModuleRelativePath", "Actor_GeneratorWall.h" },
 	};
 #endif
-#if WITH_METADATA
-	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AActor_GeneratorWall_Statics::NewProp_Axe_MetaData[] = {
-		{ "Category", "Actor_GeneratorWall" },
-		{ "ModuleRelativePath", "Actor_GeneratorWall.h" },
-	};
-#endif
-	const UE4CodeGen_Private::FBytePropertyParams Z_Construct_UClass_AActor_GeneratorWall_Statics::NewProp_Axe = { "Axe", nullptr, (EPropertyFlags)0x0010000000000001, UE4CodeGen_Private::EPropertyGenFlags::Byte, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AActor_GeneratorWall, Axe), Z_Construct_UEnum_GC_UE4CPP_Axe, METADATA_PARAMS(Z_Construct_UClass_AActor_GeneratorWall_Statics::NewProp_Axe_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AActor_GeneratorWall_Statics::NewProp_Axe_MetaData)) };
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AActor_GeneratorWall_Statics::NewProp_NumberWallX_MetaData[] = {
 		{ "Category", "Actor_GeneratorWall" },
@@ -155,20 +178,10 @@ void EmptyLinkFunctionForGeneratedCodeActor_GeneratorWall() {}
 	};
 #endif
 	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_AActor_GeneratorWall_Statics::NewProp_UnWallPrefab = { "UnWallPrefab", nullptr, (EPropertyFlags)0x0010000000080009, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AActor_GeneratorWall, UnWallPrefab), Z_Construct_UClass_UInstancedStaticMeshComponent_NoRegister, METADATA_PARAMS(Z_Construct_UClass_AActor_GeneratorWall_Statics::NewProp_UnWallPrefab_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AActor_GeneratorWall_Statics::NewProp_UnWallPrefab_MetaData)) };
-#if WITH_METADATA
-	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AActor_GeneratorWall_Statics::NewProp_SceneComponent_MetaData[] = {
-		{ "Category", "Actor_GeneratorWall" },
-		{ "EditInline", "true" },
-		{ "ModuleRelativePath", "Actor_GeneratorWall.h" },
-	};
-#endif
-	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_AActor_GeneratorWall_Statics::NewProp_SceneComponent = { "SceneComponent", nullptr, (EPropertyFlags)0x00200800000a0009, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AActor_GeneratorWall, SceneComponent), Z_Construct_UClass_USceneComponent_NoRegister, METADATA_PARAMS(Z_Construct_UClass_AActor_GeneratorWall_Statics::NewProp_SceneComponent_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AActor_GeneratorWall_Statics::NewProp_SceneComponent_MetaData)) };
 	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_AActor_GeneratorWall_Statics::PropPointers[] = {
-		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AActor_GeneratorWall_Statics::NewProp_Axe,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AActor_GeneratorWall_Statics::NewProp_NumberWallX,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AActor_GeneratorWall_Statics::NewProp_NumberWallY,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AActor_GeneratorWall_Statics::NewProp_UnWallPrefab,
-		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AActor_GeneratorWall_Statics::NewProp_SceneComponent,
 	};
 	const FCppClassTypeInfoStatic Z_Construct_UClass_AActor_GeneratorWall_Statics::StaticCppClassTypeInfo = {
 		TCppClassTypeTraits<AActor_GeneratorWall>::IsAbstract,
@@ -178,11 +191,11 @@ void EmptyLinkFunctionForGeneratedCodeActor_GeneratorWall() {}
 		"Engine",
 		&StaticCppClassTypeInfo,
 		DependentSingletons,
-		nullptr,
+		FuncInfo,
 		Z_Construct_UClass_AActor_GeneratorWall_Statics::PropPointers,
 		nullptr,
 		UE_ARRAY_COUNT(DependentSingletons),
-		0,
+		UE_ARRAY_COUNT(FuncInfo),
 		UE_ARRAY_COUNT(Z_Construct_UClass_AActor_GeneratorWall_Statics::PropPointers),
 		0,
 		0x009000A4u,
@@ -197,7 +210,7 @@ void EmptyLinkFunctionForGeneratedCodeActor_GeneratorWall() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(AActor_GeneratorWall, 2552525852);
+	IMPLEMENT_CLASS(AActor_GeneratorWall, 1371006944);
 	template<> GC_UE4CPP_API UClass* StaticClass<AActor_GeneratorWall>()
 	{
 		return AActor_GeneratorWall::StaticClass();

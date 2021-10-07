@@ -14,8 +14,16 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 #define GC_UE4CPP_Actor_GeneratorWall_generated_h
 
 #define UE4InfiltrationGame_Source_GC_UE4CPP_Actor_GeneratorWall_h_22_SPARSE_DATA
-#define UE4InfiltrationGame_Source_GC_UE4CPP_Actor_GeneratorWall_h_22_RPC_WRAPPERS
-#define UE4InfiltrationGame_Source_GC_UE4CPP_Actor_GeneratorWall_h_22_RPC_WRAPPERS_NO_PURE_DECLS
+#define UE4InfiltrationGame_Source_GC_UE4CPP_Actor_GeneratorWall_h_22_RPC_WRAPPERS \
+ \
+	DECLARE_FUNCTION(execCreateWallFromEditor);
+
+
+#define UE4InfiltrationGame_Source_GC_UE4CPP_Actor_GeneratorWall_h_22_RPC_WRAPPERS_NO_PURE_DECLS \
+ \
+	DECLARE_FUNCTION(execCreateWallFromEditor);
+
+
 #define UE4InfiltrationGame_Source_GC_UE4CPP_Actor_GeneratorWall_h_22_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesAActor_GeneratorWall(); \
@@ -58,10 +66,7 @@ public: \
 	DEFINE_DEFAULT_CONSTRUCTOR_CALL(AActor_GeneratorWall)
 
 
-#define UE4InfiltrationGame_Source_GC_UE4CPP_Actor_GeneratorWall_h_22_PRIVATE_PROPERTY_OFFSET \
-	FORCEINLINE static uint32 __PPO__SceneComponent() { return STRUCT_OFFSET(AActor_GeneratorWall, SceneComponent); }
-
-
+#define UE4InfiltrationGame_Source_GC_UE4CPP_Actor_GeneratorWall_h_22_PRIVATE_PROPERTY_OFFSET
 #define UE4InfiltrationGame_Source_GC_UE4CPP_Actor_GeneratorWall_h_17_PROLOG
 #define UE4InfiltrationGame_Source_GC_UE4CPP_Actor_GeneratorWall_h_22_GENERATED_BODY_LEGACY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \

@@ -26,9 +26,6 @@ public:
 	AActor_GeneratorWall();
 
 	UPROPERTY(EditAnywhere)
-	TEnumAsByte<Axe> Axe;
-
-	UPROPERTY(EditAnywhere)
 	int NumberWallX;
 
 	UPROPERTY(EditAnywhere)
@@ -40,18 +37,19 @@ public:
 protected:
 	// Called when the game starts or when spawned
 	virtual void BeginPlay() override;
-	
-	UPROPERTY(VisibleAnywhere)
-    USceneComponent* SceneComponent;
-	
-	TArray<UStaticMeshComponent*> ListWall;
 
 private:
+	USceneComponent* SceneComponent;
 	
+	void CreateWall(FVector positionDepart);
 	
 public:	
 	// Called every frame
 	virtual void Tick(float DeltaTime) override;
 
-	void CreateWall();
+	UFUNCTION(CallInEditor)
+	void CreateWallFromEditor();
+	
+	void CreateWallFromPlay();
+	
 };

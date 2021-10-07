@@ -11,42 +11,49 @@ AActor_GeneratorWall::AActor_GeneratorWall()
 	
 	SceneComponent = CreateDefaultSubobject<USceneComponent>(FName("RootScene"));
     RootComponent = SceneComponent;
-
+	
 }
 
 // Called when the game starts or when spawned
 void AActor_GeneratorWall::BeginPlay()
 {
 	Super::BeginPlay();
-	CreateWall();
 }
 
-void AActor_GeneratorWall::CreateWall()
+void AActor_GeneratorWall::CreateWallFromEditor()
 {
-	FVector positionDepart = FVector(0,0,0);
+	
+	CreateWall(GetActorLocation());
+}
+
+void AActor_GeneratorWall::CreateWallFromPlay()
+{
+	CreateWall(FVector(0,0,0));
+}
+
+void AActor_GeneratorWall::CreateWall(FVector positionDepart)
+{
+	if(UnWallPrefab == nullptr || UnWallPrefab->GetStaticMesh() == nullptr)
+	{
+		GEngine->AddOnScreenDebugMessage(-1,5,FColor::Red,"Veuillez sélectionné le mesh souhaitez");
+		return;
+	}
+	
+	FVector tailleComposant = UnWallPrefab->GetStaticMesh()->GetBounds().GetBox().GetSize();
+	float posX;
 	float posY = positionDepart.Y;
-	float posZ = positionDepart.Z;
-
-	FVector a = this->GetActorScale3D();
-	FVector b = this->GetActorRelativeScale3D();
-	UE_LOG(LogTemp, Warning, TEXT("The vector value is: %s"), *a.ToString());
-	UE_LOG(LogTemp, Warning, TEXT("The vector value is: %s"), *b.ToString());
-
+	float posZ = positionDepart.Z + tailleComposant.Z / 2;
+	
 	for (int i = 0; i < NumberWallY; i++)
 	{
-		float posX = positionDepart.X;
-		for (int j = 0; j < NumberWallX; j++)
-		{
-			FTransform transform = FTransform(FVector(posX,posY,posZ));
-			UnWallPrefab->AddInstance(transform);
-
-			if (Axe == AxeX)
-			{
-				posX+=161;
-			}
-		}
-		posZ+=100;
-	}
+		posX = positionDepart.X + tailleComposant.X / 2;
+	 	for (int j = 0; j < NumberWallX; j++)
+	 	{
+	 		UnWallPrefab->AddInstance(FTransform(FVector(posX,posY,posZ)));
+	 		posX += tailleComposant.X;
+	 	}
+	 	posZ += tailleComposant.Z;
+	 }
 }
 
 // Called every frame
