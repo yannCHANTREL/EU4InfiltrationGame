@@ -3,6 +3,7 @@
 #pragma once
 
 #include "CoreMinimal.h"
+#include "Food.h"
 #include "Camera/CameraComponent.h"
 #include "GameFramework/Character.h"
 #include "GameFramework/SpringArmComponent.h"
@@ -55,6 +56,9 @@ private:
 	float CameraZoomSteps;
 	// Destination of the camera for the smooth zoom Should be equal to CameraStick->TargetArmLength at the beggining
 	float CamZoomDestination;
+	// Carried food (might be null)
+	AFood* CarriedFood;
+
 
 protected:
 
@@ -72,5 +76,8 @@ protected:
 	void ZoomOut();
 
 	void SmoothZoom(float DeltaTime);
+
+	// Takes food and carry it
+	void CarryFood(AFood* FoodToCarry);
 
 };

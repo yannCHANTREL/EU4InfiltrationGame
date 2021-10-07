@@ -3,7 +3,7 @@
   <ItemGroup>
     <None Include="..\..\GC_UE4CPP.uproject" />
     <Filter Include="Source">
-      <UniqueIdentifier>{A6540B57-B417-4E47-BF0B-A3EFF3B4A2A5}</UniqueIdentifier>
+      <UniqueIdentifier>{B4EA44F6-51EC-4FDD-8232-D45D5A14B74F}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\GC_UE4CPP.Target.cs">
       <Filter>Source</Filter>
@@ -15,7 +15,7 @@
     <None Include="..\..\.gitignore" />
     <None Include="..\..\README.md" />
     <Filter Include="Config">
-      <UniqueIdentifier>{519802DC-E78D-4F02-95F8-EE1B65CDB2AB}</UniqueIdentifier>
+      <UniqueIdentifier>{56E5AD4D-C042-4125-AEFF-2540265573D4}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Config\DefaultEditor.ini">
       <Filter>Config</Filter>
@@ -30,7 +30,7 @@
       <Filter>Config</Filter>
     </None>
     <Filter Include="Source\GC_UE4CPP">
-      <UniqueIdentifier>{6E2D23FB-138E-4F49-B682-96EFD09267AB}</UniqueIdentifier>
+      <UniqueIdentifier>{AD222492-2C9B-41BD-A1DD-ACE4E248DF31}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\GC_UE4CPP\GC_UE4CPP.Build.cs">
       <Filter>Source\GC_UE4CPP</Filter>
@@ -48,9 +48,12 @@
       <Filter>Source\GC_UE4CPP</Filter>
     </ClInclude>
     <Filter Include="Source\GC_UE4CPP\Private">
-      <UniqueIdentifier>{10BA8DB8-56F4-46A9-BC99-24D6BF7E130F}</UniqueIdentifier>
+      <UniqueIdentifier>{F1CB3F57-A7E0-4210-BFDF-19F238A6BDF3}</UniqueIdentifier>
     </Filter>
     <ClCompile Include="..\..\Source\GC_UE4CPP\Private\CharacterAnimInstance.cpp">
+      <Filter>Source\GC_UE4CPP\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\GC_UE4CPP\Private\Food.cpp">
       <Filter>Source\GC_UE4CPP\Private</Filter>
     </ClCompile>
     <ClCompile Include="..\..\Source\GC_UE4CPP\Private\Hero.cpp">
@@ -63,9 +66,12 @@
       <Filter>Source\GC_UE4CPP\Private</Filter>
     </ClCompile>
     <Filter Include="Source\GC_UE4CPP\Public">
-      <UniqueIdentifier>{E23BE813-1BB7-4138-91C5-902D4362CBEB}</UniqueIdentifier>
+      <UniqueIdentifier>{C0CA23BA-ADBF-4F3E-A9B9-1F4136CEE0DB}</UniqueIdentifier>
     </Filter>
     <ClInclude Include="..\..\Source\GC_UE4CPP\Public\CharacterAnimInstance.h">
+      <Filter>Source\GC_UE4CPP\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\GC_UE4CPP\Public\Food.h">
       <Filter>Source\GC_UE4CPP\Public</Filter>
     </ClInclude>
     <ClInclude Include="..\..\Source\GC_UE4CPP\Public\Hero.h">

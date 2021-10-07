@@ -3,6 +3,7 @@
 
 #include "Hero.h"
 
+#include "Engine/SkeletalMeshSocket.h"
 #include "GameFramework/CharacterMovementComponent.h"
 
 // Sets default values
@@ -74,6 +75,23 @@ void AHero::SetupPlayerInputComponent(UInputComponent* PlayerInputComponent)
 	//Setting up Zoom In/Out
 	PlayerInputComponent->BindAction("ZoomIn", IE_Pressed, this, &AHero::ZoomIn);
 	PlayerInputComponent->BindAction("ZoomOut", IE_Pressed, this, &AHero::ZoomOut);
+}
+
+void AHero::CarryFood(AFood* FoodToCarry)
+{
+	if(FoodToCarry)
+	{
+		FoodToCarry->GetAreaSphere()->SetCollisionResponseToAllChannels(ECollisionResponse::ECR_Ignore);
+		//Get the Hand Socket
+		const USkeletalMeshSocket* HandSocket = GetMesh()->GetSocketByName(FName("HandSocket"));
+		if(HandSocket)
+		{
+			// Attach food to the hand socket
+			HandSocket->AttachActor(FoodToCarry,GetMesh());
+		}
+		CarriedFood = FoodToCarry;
+		FoodToCarry->SetFoodState(EFoodState::EFS_PickedUp);
+	}
 }
 
 void AHero::MoveForward(float Value)
