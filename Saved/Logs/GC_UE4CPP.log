@@ -1503,3 +1503,37 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2021.10.07-14.29.30:005][693]AssetCheck: New page: Asset Save: multiple assets
 [2021.10.07-14.29.30:005][693]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/Maps/MainMap_BuiltData.MainMap_BuiltData
 [2021.10.07-14.29.30:005][693]LogContentValidation: Display: Validating World /Game/Maps/MainMap.MainMap
+[2021.10.07-14.39.30:308][714]LogUObjectHash: Compacting FUObjectHashTables data took   0.31ms
+[2021.10.07-14.39.30:332][714]LogSavePackage: Moving '../../../../../../Users/ychantrel/Documents/GitHub/UE4InfiltrationGame/Saved/MainMap_Auto1DEBCFD294CF5D88BC7AFCBA35C8C5330.tmp' to '../../../../../../Users/ychantrel/Documents/GitHub/UE4InfiltrationGame/Saved/Autosaves/Game/Maps/MainMap_Auto1.umap'
+[2021.10.07-14.39.30:333][714]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/Maps/MainMap' took 0.029
+[2021.10.07-14.39.30:333][714]LogFileHelpers: Editor autosave (incl. sublevels & external actors) for all levels took 0.029
+[2021.10.07-14.40.38:767][991]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/MainMap" FILE="../../../../../../Users/ychantrel/Documents/GitHub/UE4InfiltrationGame/Content/Maps/MainMap.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2021.10.07-14.40.38:770][991]LogUObjectHash: Compacting FUObjectHashTables data took   0.28ms
+[2021.10.07-14.40.38:787][991]LogSavePackage: Moving '../../../../../../Users/ychantrel/Documents/GitHub/UE4InfiltrationGame/Saved/MainMapE56B041245074C704B175BBD50F0C90E.tmp' to '../../../../../../Users/ychantrel/Documents/GitHub/UE4InfiltrationGame/Content/Maps/MainMap.umap'
+[2021.10.07-14.40.38:792][991]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/MainMap_BuiltData" FILE="../../../../../../Users/ychantrel/Documents/GitHub/UE4InfiltrationGame/Content/Maps/MainMap_BuiltData.uasset" SILENT=true
+[2021.10.07-14.40.38:811][991]LogSavePackage: Moving '../../../../../../Users/ychantrel/Documents/GitHub/UE4InfiltrationGame/Saved/MainMap_BuiltData2A9FB6434AC897763ADD3493ED85A28E.tmp' to '../../../../../../Users/ychantrel/Documents/GitHub/UE4InfiltrationGame/Content/Maps/MainMap_BuiltData.uasset'
+[2021.10.07-14.40.38:819][991]AssetCheck: New page: Asset Save: multiple assets
+[2021.10.07-14.40.38:819][991]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/Maps/MainMap_BuiltData.MainMap_BuiltData
+[2021.10.07-14.40.38:819][991]LogContentValidation: Display: Validating World /Game/Maps/MainMap.MainMap
+[2021.10.07-14.40.56:964][117]LogContentBrowser: Attempting asset rename: MainMap -> Level1Map
+[2021.10.07-14.40.56:998][117]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Level1Map_BuiltData" FILE="../../../../../../Users/ychantrel/Documents/GitHub/UE4InfiltrationGame/Content/Maps/Level1Map_BuiltData.uasset" SILENT=true
+[2021.10.07-14.40.57:016][117]LogSavePackage: Moving '../../../../../../Users/ychantrel/Documents/GitHub/UE4InfiltrationGame/Saved/Level1Map_BuiltDataB3A90BFF46F9DB044394199749B73B86.tmp' to '../../../../../../Users/ychantrel/Documents/GitHub/UE4InfiltrationGame/Content/Maps/Level1Map_BuiltData.uasset'
+[2021.10.07-14.40.57:017][117]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Level1Map" FILE="../../../../../../Users/ychantrel/Documents/GitHub/UE4InfiltrationGame/Content/Maps/Level1Map.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2021.10.07-14.40.57:021][117]LogUObjectHash: Compacting FUObjectHashTables data took   0.45ms
+[2021.10.07-14.40.57:039][117]LogSavePackage: Moving '../../../../../../Users/ychantrel/Documents/GitHub/UE4InfiltrationGame/Saved/Level1MapB237264B46E3EFE93F1015B031121D92.tmp' to '../../../../../../Users/ychantrel/Documents/GitHub/UE4InfiltrationGame/Content/Maps/Level1Map.umap'
+[2021.10.07-14.40.57:042][117]LogFileHelpers: Saving map 'Level1Map' took 0.026
+[2021.10.07-14.40.57:083][117]LogUObjectHash: Compacting FUObjectHashTables data took   0.18ms
+[2021.10.07-14.40.57:087][117]LogUObjectHash: Compacting FUObjectHashTables data took   0.18ms
+[2021.10.07-14.40.57:093][117]LogUObjectHash: Compacting FUObjectHashTables data took   0.47ms
+[2021.10.07-14.40.57:096][117]LogUObjectHash: Compacting FUObjectHashTables data took   0.18ms
+[2021.10.07-14.40.57:117][117]AssetCheck: New page: Asset Save: multiple assets
+[2021.10.07-14.40.57:117][117]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/Maps/Level1Map_BuiltData.Level1Map_BuiltData
+[2021.10.07-14.40.57:117][117]LogContentValidation: Display: Validating World /Game/Maps/Level1Map.Level1Map
+[2021.10.07-14.41.01:400][624]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Level1Map" FILE="../../../../../../Users/ychantrel/Documents/GitHub/UE4InfiltrationGame/Content/Maps/Level1Map.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2021.10.07-14.41.01:404][624]LogUObjectHash: Compacting FUObjectHashTables data took   0.18ms
+[2021.10.07-14.41.01:421][624]LogSavePackage: Moving '../../../../../../Users/ychantrel/Documents/GitHub/UE4InfiltrationGame/Saved/Level1Map947F8DEE4B5870104BB6968922A160AE.tmp' to '../../../../../../Users/ychantrel/Documents/GitHub/UE4InfiltrationGame/Content/Maps/Level1Map.umap'
+[2021.10.07-14.41.01:426][624]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Level1Map_BuiltData" FILE="../../../../../../Users/ychantrel/Documents/GitHub/UE4InfiltrationGame/Content/Maps/Level1Map_BuiltData.uasset" SILENT=true
+[2021.10.07-14.41.01:445][624]LogSavePackage: Moving '../../../../../../Users/ychantrel/Documents/GitHub/UE4InfiltrationGame/Saved/Level1Map_BuiltData0B71D56A429A9F62CB5038A98DD92C41.tmp' to '../../../../../../Users/ychantrel/Documents/GitHub/UE4InfiltrationGame/Content/Maps/Level1Map_BuiltData.uasset'
+[2021.10.07-14.41.01:452][624]AssetCheck: New page: Asset Save: multiple assets
+[2021.10.07-14.41.01:452][624]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/Maps/Level1Map_BuiltData.Level1Map_BuiltData
+[2021.10.07-14.41.01:452][624]LogContentValidation: Display: Validating World /Game/Maps/Level1Map.Level1Map
