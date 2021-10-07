@@ -27,6 +27,7 @@ class GC_UE4CPP_API AMyIAController : public AAIController
 	UPROPERTY(EditAnywhere)
 	UBlackboardComponent * BlackboardComponent;
 
+
 	// Blackboard keys
 	UPROPERTY(EditDefaultsOnly, Category = AI)
 	FName LocationToGoKey; // Location/point for the AI to go to
