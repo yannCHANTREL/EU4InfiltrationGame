@@ -54,6 +54,8 @@ void AMyIAController::SetNextTargetAIPatrolPoint(AActor * NextTargetAIPatrolPoin
 	if(PatrolPoints.Contains(NextTargetAIPatrolPoint))
 	{
 		CurrentPatrolPoints = PatrolPoints.Find(NextTargetAIPatrolPoint);
+		GEngine->AddOnScreenDebugMessage(-1, 20, FColor::Green, *(FString::Printf(TEXT("Current patrol point %d"), CurrentPatrolPoints)));
+
 		BlackboardComponent->SetValueAsVector("PatrolLocation", NextTargetAIPatrolPoint->GetActorLocation());
 	}
 
@@ -66,8 +68,9 @@ void AMyIAController::SetNextTargetAIPatrolPoint(AActor * NextTargetAIPatrolPoin
 AActor * AMyIAController::GetRandomAIPatrolPoint(bool ExcludeCurrentPosition)
 {
 	int IndexNextPosition;
-	//Si on souhaite une position random autre que celle déjà occupée par l'IA
-	if(ExcludeCurrentPosition)
+	//Si on souhaite une position random autre que celle déjà occupée par l'IA. Il faut également que l'IA est déjà une
+	//position de départ pour pouvoir l'exclure
+	if(ExcludeCurrentPosition && CurrentPatrolPoints>=0)
 	{
 		//On veut compris entre 0 et count-1, mais avec count = count - 1(position occupée à exclure)
 		IndexNextPosition = FMath::RandRange(0, GetPatrolPoints().Num()-2);

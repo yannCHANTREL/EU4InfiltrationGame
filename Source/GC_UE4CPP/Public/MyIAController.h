@@ -50,6 +50,6 @@ class GC_UE4CPP_API AMyIAController : public AAIController
 
 	private:
 		TArray<AActor*> PatrolPoints;
-		int CurrentPatrolPoints;
+		int CurrentPatrolPoints=-1;
 
 };
