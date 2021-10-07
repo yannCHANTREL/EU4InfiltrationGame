@@ -1,5 +1,5 @@
-# Prerequisites
-*.d
+# Visual Studio 2015 user specific files
+.vs/
 
 # Visual Studio 2015 user specific files
 .vs/
