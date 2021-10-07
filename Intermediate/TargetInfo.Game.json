@@ -2,12 +2,20 @@
 	"Targets": [
 		{
 			"Name": "GC_UE4CPP",
+<<<<<<< HEAD
 			"Path": "C:\\Users\\aremond\\Documents\\GitHub\\UE4InfiltrationGame\\Source\\GC_UE4CPP.Target.cs",
+=======
+			"Path": "C:\\Users\\bcanu\\Documents\\GitHub\\UE4InfiltrationGame\\Source\\GC_UE4CPP.Target.cs",
+>>>>>>> PrototypeIA
 			"Type": "Game"
 		},
 		{
 			"Name": "GC_UE4CPPEditor",
+<<<<<<< HEAD
 			"Path": "C:\\Users\\aremond\\Documents\\GitHub\\UE4InfiltrationGame\\Source\\GC_UE4CPPEditor.Target.cs",
+=======
+			"Path": "C:\\Users\\bcanu\\Documents\\GitHub\\UE4InfiltrationGame\\Source\\GC_UE4CPPEditor.Target.cs",
+>>>>>>> PrototypeIA
 			"Type": "Editor"
 		}
 	]

@@ -1,0 +1,3 @@
+C:\Users\bcanu\Documents\GitHub\UE4InfiltrationGame\Intermediate\Build\Win64\UE4Editor\Development\GC_UE4CPP\Definitions.GC_UE4CPP.h
+C:\Users\bcanu\Documents\GitHub\UE4InfiltrationGame\Source\GC_UE4CPP\Public\PatrolPoints.h
+C:\Users\bcanu\Documents\GitHub\UE4InfiltrationGame\Intermediate\Build\Win64\UE4Editor\Inc\GC_UE4CPP\PatrolPoints.generated.h

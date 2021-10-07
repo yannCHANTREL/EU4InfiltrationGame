@@ -3,7 +3,11 @@
   <ItemGroup>
     <None Include="..\..\GC_UE4CPP.uproject" />
     <Filter Include="Source">
+<<<<<<< HEAD
       <UniqueIdentifier>{B4EA44F6-51EC-4FDD-8232-D45D5A14B74F}</UniqueIdentifier>
+=======
+      <UniqueIdentifier>{396906DE-7522-403F-BB67-A540AE9B8098}</UniqueIdentifier>
+>>>>>>> PrototypeIA
     </Filter>
     <None Include="..\..\Source\GC_UE4CPP.Target.cs">
       <Filter>Source</Filter>
@@ -15,7 +19,11 @@
     <None Include="..\..\.gitignore" />
     <None Include="..\..\README.md" />
     <Filter Include="Config">
+<<<<<<< HEAD
       <UniqueIdentifier>{56E5AD4D-C042-4125-AEFF-2540265573D4}</UniqueIdentifier>
+=======
+      <UniqueIdentifier>{1BECC3A5-93C0-4118-8FF4-824A867CA436}</UniqueIdentifier>
+>>>>>>> PrototypeIA
     </Filter>
     <None Include="..\..\Config\DefaultEditor.ini">
       <Filter>Config</Filter>
@@ -30,7 +38,11 @@
       <Filter>Config</Filter>
     </None>
     <Filter Include="Source\GC_UE4CPP">
+<<<<<<< HEAD
       <UniqueIdentifier>{AD222492-2C9B-41BD-A1DD-ACE4E248DF31}</UniqueIdentifier>
+=======
+      <UniqueIdentifier>{D68F7188-6B9F-448C-BD59-EB003EF1E733}</UniqueIdentifier>
+>>>>>>> PrototypeIA
     </Filter>
     <None Include="..\..\Source\GC_UE4CPP\GC_UE4CPP.Build.cs">
       <Filter>Source\GC_UE4CPP</Filter>
@@ -48,6 +60,7 @@
       <Filter>Source\GC_UE4CPP</Filter>
     </ClInclude>
     <Filter Include="Source\GC_UE4CPP\Private">
+<<<<<<< HEAD
       <UniqueIdentifier>{F1CB3F57-A7E0-4210-BFDF-19F238A6BDF3}</UniqueIdentifier>
     </Filter>
     <ClCompile Include="..\..\Source\GC_UE4CPP\Private\CharacterAnimInstance.cpp">
@@ -81,6 +94,47 @@
       <Filter>Source\GC_UE4CPP\Public</Filter>
     </ClInclude>
     <ClInclude Include="..\..\Source\GC_UE4CPP\Public\MainGameState.h">
+=======
+      <UniqueIdentifier>{4F9BFF69-6152-4CA3-96A2-7759E3A4FEB3}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\GC_UE4CPP\Private\AIPatrolPoint.cpp">
+      <Filter>Source\GC_UE4CPP\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\GC_UE4CPP\Private\BTT_ChasePlayer.cpp">
+      <Filter>Source\GC_UE4CPP\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\GC_UE4CPP\Private\BTT_FindRandomPatrol.cpp">
+      <Filter>Source\GC_UE4CPP\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\GC_UE4CPP\Private\IACharacter.cpp">
+      <Filter>Source\GC_UE4CPP\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\GC_UE4CPP\Private\MyIAController.cpp">
+      <Filter>Source\GC_UE4CPP\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\GC_UE4CPP\Private\PatrolPoints.cpp">
+      <Filter>Source\GC_UE4CPP\Private</Filter>
+    </ClCompile>
+    <Filter Include="Source\GC_UE4CPP\Public">
+      <UniqueIdentifier>{8B21996C-315F-404C-855F-166F651EF30D}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Source\GC_UE4CPP\Public\AIPatrolPoint.h">
+      <Filter>Source\GC_UE4CPP\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\GC_UE4CPP\Public\BTT_ChasePlayer.h">
+      <Filter>Source\GC_UE4CPP\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\GC_UE4CPP\Public\BTT_FindRandomPatrol.h">
+      <Filter>Source\GC_UE4CPP\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\GC_UE4CPP\Public\IACharacter.h">
+      <Filter>Source\GC_UE4CPP\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\GC_UE4CPP\Public\MyIAController.h">
+      <Filter>Source\GC_UE4CPP\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\GC_UE4CPP\Public\PatrolPoints.h">
+>>>>>>> PrototypeIA
       <Filter>Source\GC_UE4CPP\Public</Filter>
     </ClInclude>
   </ItemGroup>

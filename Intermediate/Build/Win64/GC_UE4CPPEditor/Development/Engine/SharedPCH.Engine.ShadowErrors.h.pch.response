@@ -260,11 +260,19 @@
 /I "C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\shared"
 /I "C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um"
 /I "C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\winrt"
+<<<<<<< HEAD
 /I C:\Users\aremond\Documents\GitHub\UE4InfiltrationGame\Intermediate\Build\Win64\GC_UE4CPPEditor\Development\Engine
 /Yc"C:\Users\aremond\Documents\GitHub\UE4InfiltrationGame\Intermediate\Build\Win64\GC_UE4CPPEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h"
 /Fp"C:\Users\aremond\Documents\GitHub\UE4InfiltrationGame\Intermediate\Build\Win64\GC_UE4CPPEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h.pch"
 "C:\Users\aremond\Documents\GitHub\UE4InfiltrationGame\Intermediate\Build\Win64\GC_UE4CPPEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.cpp"
 /Fo"C:\Users\aremond\Documents\GitHub\UE4InfiltrationGame\Intermediate\Build\Win64\GC_UE4CPPEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h.obj"
+=======
+/I C:\Users\bcanu\Documents\GitHub\UE4InfiltrationGame\Intermediate\Build\Win64\GC_UE4CPPEditor\Development\Engine
+/Yc"C:\Users\bcanu\Documents\GitHub\UE4InfiltrationGame\Intermediate\Build\Win64\GC_UE4CPPEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h"
+/Fp"C:\Users\bcanu\Documents\GitHub\UE4InfiltrationGame\Intermediate\Build\Win64\GC_UE4CPPEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h.pch"
+"C:\Users\bcanu\Documents\GitHub\UE4InfiltrationGame\Intermediate\Build\Win64\GC_UE4CPPEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.cpp"
+/Fo"C:\Users\bcanu\Documents\GitHub\UE4InfiltrationGame\Intermediate\Build\Win64\GC_UE4CPPEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h.obj"
+>>>>>>> PrototypeIA
 /TP
 /GR-
 /W4

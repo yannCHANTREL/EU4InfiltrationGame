@@ -32,16 +32,20 @@
 /wd4244
 /wd4838
 /I .
+<<<<<<< HEAD
 /I C:\Users\ychantrel\Documents\GitHub\UE4InfiltrationGame\Intermediate\Build\Win64\UE4Editor\Inc\GC_UE4CPP
 /I C:\Users\ychantrel\Documents\GitHub\UE4InfiltrationGame\Source
+=======
+/I C:\Users\bcanu\Documents\GitHub\UE4InfiltrationGame\Source\GC_UE4CPP\Private
+/I ..\Intermediate\Build\Win64\UE4Editor\Inc\Engine
+>>>>>>> PrototypeIA
 /I Runtime
+/I Runtime\Engine\Classes
+/I Runtime\Engine\Public
 /I Runtime\TraceLog\Public
 /I Runtime\Core\Public
 /I ..\Intermediate\Build\Win64\UE4Editor\Inc\CoreUObject
 /I Runtime\CoreUObject\Public
-/I ..\Intermediate\Build\Win64\UE4Editor\Inc\Engine
-/I Runtime\Engine\Classes
-/I Runtime\Engine\Public
 /I ..\Intermediate\Build\Win64\UE4Editor\Inc\NetCore
 /I Runtime\Net
 /I Runtime\Net\Core\Classes
@@ -233,6 +237,9 @@
 /I Editor\Kismet\Public
 /I ..\Intermediate\Build\Win64\UE4Editor\Inc\ClothingSystemRuntimeInterface
 /I Runtime\ClothingSystemRuntimeInterface\Public
+/I C:\Users\bcanu\Documents\GitHub\UE4InfiltrationGame\Intermediate\Build\Win64\UE4Editor\Inc\GC_UE4CPP
+/I C:\Users\bcanu\Documents\GitHub\UE4InfiltrationGame\Source
+/I C:\Users\bcanu\Documents\GitHub\UE4InfiltrationGame\Source\GC_UE4CPP\Public
 /I ThirdParty\PhysX3\PxShared\include
 /I ThirdParty\PhysX3\PxShared\include\cudamanager
 /I ThirdParty\PhysX3\PxShared\include\filebuf
@@ -258,6 +265,7 @@
 /I ThirdParty\PhysX3\APEX_1.4\shared\internal\include
 /I "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\INCLUDE"
 /I "C:\Program Files (x86)\Windows Kits\NETFXSDK\4.8\include\um"
+<<<<<<< HEAD
 /I "C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\ucrt"
 /I "C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\shared"
 /I "C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um"
@@ -268,6 +276,18 @@
 "C:\Users\ychantrel\Documents\GitHub\UE4InfiltrationGame\Source\GC_UE4CPP\GC_UE4CPP.cpp"
 /FI"C:\Users\ychantrel\Documents\GitHub\UE4InfiltrationGame\Intermediate\Build\Win64\UE4Editor\Development\GC_UE4CPP\Definitions.GC_UE4CPP.h"
 /Fo"C:\Users\ychantrel\Documents\GitHub\UE4InfiltrationGame\Intermediate\Build\Win64\UE4Editor\Development\GC_UE4CPP\GC_UE4CPP.cpp.obj"
+=======
+/I "C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\ucrt"
+/I "C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\shared"
+/I "C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\um"
+/I "C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\winrt"
+/FI"C:\Users\bcanu\Documents\GitHub\UE4InfiltrationGame\Intermediate\Build\Win64\GC_UE4CPPEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h"
+/Yu"C:\Users\bcanu\Documents\GitHub\UE4InfiltrationGame\Intermediate\Build\Win64\GC_UE4CPPEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h"
+/Fp"C:\Users\bcanu\Documents\GitHub\UE4InfiltrationGame\Intermediate\Build\Win64\GC_UE4CPPEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h.pch"
+"C:\Users\bcanu\Documents\GitHub\UE4InfiltrationGame\Source\GC_UE4CPP\GC_UE4CPP.cpp"
+/FI"C:\Users\bcanu\Documents\GitHub\UE4InfiltrationGame\Intermediate\Build\Win64\UE4Editor\Development\GC_UE4CPP\Definitions.GC_UE4CPP.h"
+/Fo"C:\Users\bcanu\Documents\GitHub\UE4InfiltrationGame\Intermediate\Build\Win64\UE4Editor\Development\GC_UE4CPP\GC_UE4CPP.cpp.obj"
+>>>>>>> PrototypeIA
 /TP
 /GR-
 /W4
